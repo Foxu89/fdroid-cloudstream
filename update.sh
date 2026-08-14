@@ -5,6 +5,11 @@ echo "::group::Building metascoop executable"
 go build -o metascoop
 echo "::endgroup::"
 
+echo "::group::Downloading CloudStream pre-release APK"
+PRERELEASE_ASSET_URL=$(curl -fsSL -H "Authorization: Bearer $GH_ACCESS_TOKEN" https://api.github.com/repos/recloudstream/cloudstream/releases/tags/pre-release | python3 -c "import sys,json; data=json.load(sys.stdin); apk=[a for a in data['assets'] if a['name'].endswith('.apk')][0]; print(apk['browser_download_url'])")
+curl -fL --retry 3 -o ../fdroid/repo/cloudstream-prerelease_pre-release.apk "$PRERELEASE_ASSET_URL" || { echo "Failed to download CloudStream pre-release APK"; exit 1; }
+echo "::endgroup::"
+
 ./metascoop -ap=../apps.yaml -rd=../fdroid/repo -pat="$GH_ACCESS_TOKEN" $1
 EXIT_CODE=$?
 cd ..
