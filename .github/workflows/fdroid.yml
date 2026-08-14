@@ -5,15 +5,19 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-  - cron: "45 2 * * *"
+    - cron: "45 2 * * *"
 
 jobs:
   apps:
     name: "Generate repo from apps listing"
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 👈 FONDAMENTALE: autorizza il bot a fare il push nel repo
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4 # 👈 Aggiornato a v4
+        with:
+          fetch-depth: 0 # Necessario per far funzionare correttamente git restore-mtime
 
       - name: Create basic directory structure
         run: mkdir -p fdroid/repo
@@ -39,11 +43,11 @@ jobs:
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
 
-      - uses: actions/setup-go@v2
+      - uses: actions/setup-go@v5 # 👈 Aggiornato alla v5
         name: Set up Go
         with:
-          go-version: '^1.17.0' 
-        
+          go-version: '^1.17.0'
+
       - name: Run update script
         run: bash update.sh 2>&1
         env:
