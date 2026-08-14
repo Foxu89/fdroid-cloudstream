@@ -251,6 +251,7 @@ func main() {
 			setNonEmpty(meta, "SourceCode", apkInfo.GitURL)
 			setNonEmpty(meta, "License", apkInfo.License)
 			setNonEmpty(meta, "Description", apkInfo.Description)
+			setNonEmpty(meta, "WebSite", apkInfo.WebSite)
 
 			var summary = apkInfo.Summary
 			// See https://f-droid.org/en/docs/Build_Metadata_Reference/#Summary for max length

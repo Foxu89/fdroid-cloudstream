@@ -30,6 +30,10 @@ elif [ $EXIT_CODE -eq 0 ]; then
     git config --global user.name 'github-actions'
     git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
+    # fdroid server 2.4.2 (bug #1236) overwrites the repo icon with a
+    # placeholder on every run, restore the committed one before committing.
+    git checkout -- fdroid/repo/icons/icon.png 2>/dev/null || true
+
     git add .
     git commit -m"Automated update"
     git push "https://x-access-token:${GH_ACCESS_TOKEN}@github.com/Foxu89/fdroid-cloudstream.git" HEAD:main

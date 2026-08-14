@@ -21,6 +21,8 @@ type AppInfo struct {
 
 	Description string `yaml:"description"`
 
+	WebSite string `yaml:"website"`
+
 	Categories []string `yaml:"categories"`
 
 	AntiFeatures []string `yaml:"anti_features"`

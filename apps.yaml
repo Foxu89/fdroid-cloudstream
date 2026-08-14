@@ -15,6 +15,8 @@ cloudstream:
     - Modular extension system for external providers
     - Optimized interface for both phones and Android TV
 
+  website: https://cloudstream.miraheze.org/wiki/Main_Page
+
   categories:
     - Multimedia
     - Internet
