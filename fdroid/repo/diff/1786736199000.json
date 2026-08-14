@@ -1,0 +1,37 @@
+{
+  "repo": {
+    "timestamp": 1786736206000,
+    "categories": {
+      "fdroid": null,
+      "Books": {
+        "name": {
+          "en-US": "Books"
+        }
+      },
+      "Reading": {
+        "name": {
+          "en-US": "Reading"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.lagradost.quicknovel": {
+      "metadata": {
+        "categories": [
+          "Books",
+          "Reading"
+        ],
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/LagradOst/QuickNovel",
+        "authorName": "LagradOst",
+        "summary": {
+          "en-US": "Open-source Android application for downloading and reading light novels and ..."
+        },
+        "description": {
+          "en-US": "QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.\n\nKey features:\n\n- Download novels for offline reading in EPUB or PDF formats\n- Built-in customizable reader with text sizing, fonts, and night mode\n- Integrated online translation support for foreign language sources\n- Advanced search and filtering across multiple provider sources\n- Built-in Text-To-Speech (TTS) integration for listening on the go\n- Organized library management with bookmarks, history, and reading progress\n- Completely ad-free and open-source experience\n- Optimized interface for Android phones and tablets\n"
+        }
+      }
+    }
+  }
+}

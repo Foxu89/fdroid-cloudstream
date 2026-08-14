@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="CloudStream F-Droid repo" pubkey="3082059e30820386a003020102020900a1151a9880d2aec8300d06092a864886f70d01010c0500307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f3020170d3236303831343130303730365a180f32303533313233303130303730365a307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100bb629e7e9647152184afed5da6d4c28693ca1a02fcf08acca2c2657b20e0ba96afc931800889c9ba76fb9c0748e56c60973406beec39f7d192e4352c9de81b6f5a7f19594b307443efc528797b1cb7e8075617d74e4a73f53f99e5b21c8d6c9840ba35d068c6fe8e5c4152b23633a2ad41baf7529f7e603cb5441b0ee53cd3d41cc92e83b216a7dd958b38f7336966ac7f000707d118ecb10a15f3dbfab53f653d35bc119ee1541f7b3746dc3dd6bfd50e4b431a0bcec883d328fc1f8378d0d0509a8841ffcf8d50427627287f23f17b36d6323d4f83bc50c92f6dea42b14bb6636c3b5b60475b02e1a4a763fb2ab31180baaecfcf788905218736a7e533365475cf62564a487302f44d4c39442f3d97ec2ca547f054d1860883d4654934666e8fcd6aac408000817416dfacce979e6a7c1bc1db18502aefe8a0d5f1cf8bab5811f4184bb92cb8d0793f38912a8a4f77251142268dd6b062b8ce6c46028f5ef8049759f97dee3dae9001a645b059cbb34fd1b5eafcf2e26ce034d58687c71abed22c8d0efdee3573e5bca65db743b5d637d8784434c8fd57ae7e2e0387af115d0b06341cf315188fa36dff5e2551c32cf2dabab05b677f3b651825a76a0a92b0b3f9561a933e211d71f8723ea3d64a47073e921dfb727a745f2f880698bbca8689327f209d8307e13c3444ab1095c489b87fdebe62494817419cd384b4765bb30203010001a321301f301d0603551d0e041604148d8824b997e87daee63c865283c85f8587de875a300d06092a864886f70d01010c050003820201008eea132fc971b9d890cc86601e5f7b3d0661a2cfb335e9443a6f411c7f951c75b013430ed015a9879980d20328896432712838f24c5e8c70fda960256cca5eeb1ae3d8f613128b95fa7d4a480d2dc95d060aa8fcc925763f81fed400593bbd0f3f53db8f7636ff35d769d0d06d7e3172761d6c683f195f7245d2e1d0828b11ee1e5d3e98d486dbd74e86eb8a09090b4ff9b1cb150cd1f5fc2906daa150b1d38067a5218aad63c905c4f06d91fe7ddbc17455058d518d004186728e9c6b5a5d6c11df50b8d72b0ef5fe988edddba20fed74ef09bb444b01d305fbc74979f5559553cb0395f38d14353497546f8af84fd2439ba2b3556807110bd43dc70edefa062ee02d3eb0c53be1a53665aa48781c43d6bd5a667732902c154cc00d82aa52630bbcaae0048140f4685832f6dc2bcac1ec04fb8310242771f7df32f08c986b6b0246d293a81933950c9f9773c08c1aa4e8ae528e0c019cd509d2bba31db89178f935e5dc7954ebdcc831dbc52530b95faecf06788973f1245ea59f389aeaae46e953812b1c08b29d95608e063f019636d36c0f53655ee9d07cef77495d2e41258837e3f5479efa2ee949c7aec7171fc6043eb4be94f495abf40818076d5e652549f9d2dbfaa70dacb514d33e689759ce68e4f1ce940dde11ccf346bfab73fa8deda880bb3f4536a45900bbb83b5032eb66ce31fdbfd42f026e9b1d7ee5f03d14" timestamp="1786732981" url="https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo" version="20002">
+	<repo icon="icon.png" name="CloudStream F-Droid repo" pubkey="3082059e30820386a003020102020900a1151a9880d2aec8300d06092a864886f70d01010c0500307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f3020170d3236303831343130303730365a180f32303533313233303130303730365a307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100bb629e7e9647152184afed5da6d4c28693ca1a02fcf08acca2c2657b20e0ba96afc931800889c9ba76fb9c0748e56c60973406beec39f7d192e4352c9de81b6f5a7f19594b307443efc528797b1cb7e8075617d74e4a73f53f99e5b21c8d6c9840ba35d068c6fe8e5c4152b23633a2ad41baf7529f7e603cb5441b0ee53cd3d41cc92e83b216a7dd958b38f7336966ac7f000707d118ecb10a15f3dbfab53f653d35bc119ee1541f7b3746dc3dd6bfd50e4b431a0bcec883d328fc1f8378d0d0509a8841ffcf8d50427627287f23f17b36d6323d4f83bc50c92f6dea42b14bb6636c3b5b60475b02e1a4a763fb2ab31180baaecfcf788905218736a7e533365475cf62564a487302f44d4c39442f3d97ec2ca547f054d1860883d4654934666e8fcd6aac408000817416dfacce979e6a7c1bc1db18502aefe8a0d5f1cf8bab5811f4184bb92cb8d0793f38912a8a4f77251142268dd6b062b8ce6c46028f5ef8049759f97dee3dae9001a645b059cbb34fd1b5eafcf2e26ce034d58687c71abed22c8d0efdee3573e5bca65db743b5d637d8784434c8fd57ae7e2e0387af115d0b06341cf315188fa36dff5e2551c32cf2dabab05b677f3b651825a76a0a92b0b3f9561a933e211d71f8723ea3d64a47073e921dfb727a745f2f880698bbca8689327f209d8307e13c3444ab1095c489b87fdebe62494817419cd384b4765bb30203010001a321301f301d0603551d0e041604148d8824b997e87daee63c865283c85f8587de875a300d06092a864886f70d01010c050003820201008eea132fc971b9d890cc86601e5f7b3d0661a2cfb335e9443a6f411c7f951c75b013430ed015a9879980d20328896432712838f24c5e8c70fda960256cca5eeb1ae3d8f613128b95fa7d4a480d2dc95d060aa8fcc925763f81fed400593bbd0f3f53db8f7636ff35d769d0d06d7e3172761d6c683f195f7245d2e1d0828b11ee1e5d3e98d486dbd74e86eb8a09090b4ff9b1cb150cd1f5fc2906daa150b1d38067a5218aad63c905c4f06d91fe7ddbc17455058d518d004186728e9c6b5a5d6c11df50b8d72b0ef5fe988edddba20fed74ef09bb444b01d305fbc74979f5559553cb0395f38d14353497546f8af84fd2439ba2b3556807110bd43dc70edefa062ee02d3eb0c53be1a53665aa48781c43d6bd5a667732902c154cc00d82aa52630bbcaae0048140f4685832f6dc2bcac1ec04fb8310242771f7df32f08c986b6b0246d293a81933950c9f9773c08c1aa4e8ae528e0c019cd509d2bba31db89178f935e5dc7954ebdcc831dbc52530b95faecf06788973f1245ea59f389aeaae46e953812b1c08b29d95608e063f019636d36c0f53655ee9d07cef77495d2e41258837e3f5479efa2ee949c7aec7171fc6043eb4be94f495abf40818076d5e652549f9d2dbfaa70dacb514d33e689759ce68e4f1ce940dde11ccf346bfab73fa8deda880bb3f4536a45900bbb83b5032eb66ce31fdbfd42f026e9b1d7ee5f03d14" timestamp="1786736206" url="https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo" version="20002">
 		<description>F-Droid repository hosting the CloudStream app: stable and pre-release builds.
 </description>
 	</repo>
@@ -213,6 +213,579 @@ Key features:
 			<added>2026-08-14</added>
 			<sig>9289624423ef62e7f6b2bcf17c387b74</sig>
 			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.lagradost.quicknovel">
+		<id>com.lagradost.quicknovel</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-14</lastupdated>
+		<name>QuickNovel</name>
+		<summary>Open-source Android application for downloading and reading light novels and ...</summary>
+		<desc>QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.
+
+Key features:
+
+- Download novels for offline reading in EPUB or PDF formats
+- Built-in customizable reader with text sizing, fonts, and night mode
+- Integrated online translation support for foreign language sources
+- Advanced search and filtering across multiple provider sources
+- Built-in Text-To-Speech (TTS) integration for listening on the go
+- Organized library management with bookmarks, history, and reading progress
+- Completely ad-free and open-source experience
+- Optimized interface for Android phones and tablets
+</desc>
+		<license>GPL-3.0</license>
+		<categories>Books,Reading</categories>
+		<category>Books</category>
+		<web></web>
+		<source>https://github.com/LagradOst/QuickNovel</source>
+		<tracker></tracker>
+		<author>LagradOst</author>
+		<marketversion>3.3.0</marketversion>
+		<marketvercode>56</marketvercode>
+		<package>
+			<version>3.2.5</version>
+			<versioncode>56</versioncode>
+			<apkname>quicknovel_v3.2.5.apk</apkname>
+			<hash type="sha256">66e46c820bd20deefee9387734d8954110626f3819e4e9a8c2e936f7f2fb1771</hash>
+			<size>11755328</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.8</version>
+			<versioncode>55</versioncode>
+			<apkname>quicknovel_3.1.8.apk</apkname>
+			<hash type="sha256">3b5354e8dbde5c673dbd1b35f576740b33fa67d7a1e8a7b450252d12f0bb02d0</hash>
+			<size>10528073</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.4</version>
+			<versioncode>54</versioncode>
+			<apkname>quicknovel_v3.1.4.apk</apkname>
+			<hash type="sha256">2aee06079a5cf4f1e12ce6a06f25722310c45b0f4e6f22e27b949efee32eb2f6</hash>
+			<size>10481598</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.3</version>
+			<versioncode>53</versioncode>
+			<apkname>quicknovel_v3.1.3.apk</apkname>
+			<hash type="sha256">b99813eafb607bdfab7b90ed55325aba3f79c08b6ef0bec9c47f2aa51e7525b5</hash>
+			<size>10480695</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.2</version>
+			<versioncode>52</versioncode>
+			<apkname>quicknovel_v3.1.2.apk</apkname>
+			<hash type="sha256">69fc242a70717e331f35199229da3dd14e0bb1b005906eea6d8c380984b1cf25</hash>
+			<size>10482565</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.1</version>
+			<versioncode>51</versioncode>
+			<apkname>quicknovel_v3.1.1.apk</apkname>
+			<hash type="sha256">cc7ca183cf56cf777c323f803feaa29848dadd37012d3cad759dd88e6b92face</hash>
+			<size>10476539</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.1.0</version>
+			<versioncode>50</versioncode>
+			<apkname>quicknovel_v3.1.0.apk</apkname>
+			<hash type="sha256">c47a9104b8cbc6924aae9497b95daa4ff5ce733ba58f2445390e404b0fe883c5</hash>
+			<size>10469965</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.0.1</version>
+			<versioncode>49</versioncode>
+			<apkname>quicknovel_v3.0.1.apk</apkname>
+			<hash type="sha256">439e4a18b5ae72eb1fa619b768577f4652e99bf08009f8d0e7733728f791fc3a</hash>
+			<size>10381004</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>3.0.0</version>
+			<versioncode>48</versioncode>
+			<apkname>quicknovel_v3.0.0.apk</apkname>
+			<hash type="sha256">59c514ad564e1976a52d256e21fc8ea1f837a4e89d0efe58bcf5849cf78b394d</hash>
+			<size>10353070</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>2.3.1</version>
+			<versioncode>47</versioncode>
+			<apkname>quicknovel_v2.3.1.apk</apkname>
+			<hash type="sha256">21cd07690d839931931d7c60e144e9e2c630dd05c32e13df54dd56aa8219bd29</hash>
+			<size>10074996</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>2.3.0</version>
+			<versioncode>45</versioncode>
+			<apkname>quicknovel_v2.3.0.apk</apkname>
+			<hash type="sha256">9a40098962364ea266f349dd534624014fc66898ab1badee6bd005d87bf6b4fc</hash>
+			<size>10074236</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>2.2.1</version>
+			<versioncode>43</versioncode>
+			<apkname>quicknovel_v2.2.1.apk</apkname>
+			<hash type="sha256">6f505704d16ddc909ebf63f2e9dbf38fbe8312a92a9d32fad0e29e41477b6b19</hash>
+			<size>10074227</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>2.2.0</version>
+			<versioncode>42</versioncode>
+			<apkname>quicknovel_v2.2.0.apk</apkname>
+			<hash type="sha256">7dd6bc6c5800be4d6dddb008bd617fa9a87ea2d9a8a4a391228fe3a37a1aa068</hash>
+			<size>10072917</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE,com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+		<package>
+			<version>2.1.0</version>
+			<versioncode>41</versioncode>
+			<apkname>quicknovel_v2.1.0.apk</apkname>
+			<hash type="sha256">9582508861cd397ea74726a4ed6957358174a290e6d3e1e433b7a0c7ac0e6d5d</hash>
+			<size>10044464</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+		</package>
+		<package>
+			<version>2.0.0</version>
+			<versioncode>40</versioncode>
+			<apkname>quicknovel_v2.0.0.apk</apkname>
+			<hash type="sha256">35428f953074c67ac397bb25cfd882bd29926e85d95baf0378a0da735689858f</hash>
+			<size>9870202</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+		</package>
+		<package>
+			<version>1.9.7</version>
+			<versioncode>39</versioncode>
+			<apkname>quicknovel_v1.9.7.apk</apkname>
+			<hash type="sha256">c823de248ce08a07cb563f627c845439b88f0e06aee62ac3b0cb7d7eaa40252e</hash>
+			<size>11309778</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.9.6</version>
+			<versioncode>38</versioncode>
+			<apkname>quicknovel_v1.9.6.apk</apkname>
+			<hash type="sha256">840432a18a6c5460e84a074cd5a04157be5ff44640f5a7ac38f02fab96194fd1</hash>
+			<size>10879103</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.8.3</version>
+			<versioncode>35</versioncode>
+			<apkname>quicknovel_v1.8.3.apk</apkname>
+			<hash type="sha256">3c52afbfcb9ab37d0a1d66d3bb1a6b28357d313aa3d605e4f974db99f0a0f873</hash>
+			<size>16224198</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.8.2</version>
+			<versioncode>34</versioncode>
+			<apkname>quicknovel_v1.8.2.apk</apkname>
+			<hash type="sha256">c01a7fd7461e2ccafb2f96eecf265f8cd14a5baa9c119bb3ba5f63ae3282864c</hash>
+			<size>16224181</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.8.0</version>
+			<versioncode>33</versioncode>
+			<apkname>quicknovel_v1.8.0.apk</apkname>
+			<hash type="sha256">556de47628a0a5411874da9c4573934a0fc7a1ecf67064399db464ade74d5db7</hash>
+			<size>15855876</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.6</version>
+			<versioncode>32</versioncode>
+			<apkname>quicknovel_v1.7.6.apk</apkname>
+			<hash type="sha256">2affd7f20b83b20503f0f91d772cc52cda866cb5b5a0f027429724cfbce58d1e</hash>
+			<size>15596632</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.5</version>
+			<versioncode>31</versioncode>
+			<apkname>quicknovel_v1.7.5.apk</apkname>
+			<hash type="sha256">1bfb407897df0becb2295d7068add58e720dddfbb96b9c0b475953ebcf57acde</hash>
+			<size>15602666</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.3</version>
+			<versioncode>29</versioncode>
+			<apkname>quicknovel_v1.7.3.apk</apkname>
+			<hash type="sha256">98f5ae0fa3f83c0705add675acf1e91f0e9a14bf436a9a912f659a76e31446d7</hash>
+			<size>15471464</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.2</version>
+			<versioncode>28</versioncode>
+			<apkname>quicknovel_v1.7.2.apk</apkname>
+			<hash type="sha256">34d1574f3b23662d70deff37342759a1cf3a3e5347f55ea1866a3a1887d3b2ad</hash>
+			<size>18940552</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.1</version>
+			<versioncode>27</versioncode>
+			<apkname>quicknovel_v1.7.1.apk</apkname>
+			<hash type="sha256">de4671ee3feb725f07fdf320a00cd31a24e92bdd7dc74f30f51de77def3b42e2</hash>
+			<size>15446678</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.7.0</version>
+			<versioncode>26</versioncode>
+			<apkname>quicknovel_v1.7.0.apk</apkname>
+			<hash type="sha256">a8ffdb023972b554b29340b508482629668559010ffe2dd38349ebeff2aeefb4</hash>
+			<size>15438890</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.6.3</version>
+			<versioncode>25</versioncode>
+			<apkname>quicknovel_v1.6.3.apk</apkname>
+			<hash type="sha256">e5594d1ea7a892da92dbfb553c2767ad51c1536b1ac7db3d5e8df08fe18679fe</hash>
+			<size>15341109</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.6.2</version>
+			<versioncode>24</versioncode>
+			<apkname>quicknovel_v1.6.2.apk</apkname>
+			<hash type="sha256">efbeea6f4210e856d278c7816807ff6b16cb4a04ab26f0f8082c5c0c34495acd</hash>
+			<size>15336477</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.6.0</version>
+			<versioncode>22</versioncode>
+			<apkname>quicknovel_v1.6.0.apk</apkname>
+			<hash type="sha256">1695645778b872b9730fee3fd3a01a66bdf4f1d512ef1cec99da2658888b64f1</hash>
+			<size>15313262</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.5.3</version>
+			<versioncode>21</versioncode>
+			<apkname>quicknovel_v1.5.3.apk</apkname>
+			<hash type="sha256">a133755139640f9a03329390250408b97c65ad84ef3165602346391c079f3869</hash>
+			<size>15238329</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.5.1</version>
+			<versioncode>19</versioncode>
+			<apkname>quicknovel_v1.5.1.apk</apkname>
+			<hash type="sha256">e3d96f933f55a0836b8d1daba48245f54386e1a75e126c7ca12b316e0d54b93a</hash>
+			<size>15225654</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.5.0</version>
+			<versioncode>18</versioncode>
+			<apkname>quicknovel_v1.5.0.apk</apkname>
+			<hash type="sha256">af3c3f0c04edae7c45459dfd820fabac90d3d683efa43cb8c6f925adca12928d</hash>
+			<size>15221760</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.4.7</version>
+			<versioncode>17</versioncode>
+			<apkname>quicknovel_v1.4.7.apk</apkname>
+			<hash type="sha256">6114eb2516178b84bfb408823f6482080cc6c9ebd13ae4f85490ed709d59547c</hash>
+			<size>14996211</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.4.2</version>
+			<versioncode>12</versioncode>
+			<apkname>quicknovel_v1.4.2.apk</apkname>
+			<hash type="sha256">ae726caa7b3079932eab37fecf9c57207fb22f4438f5381b00325b313c54d84b</hash>
+			<size>14990327</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.4.1</version>
+			<versioncode>11</versioncode>
+			<apkname>quicknovel_v1.4.1.apk</apkname>
+			<hash type="sha256">fa4e14b50d0a2d63076ba6f23b2b9131695dceecacd13656516dcc6a6ada7c3c</hash>
+			<size>14978176</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.4.0</version>
+			<versioncode>10</versioncode>
+			<apkname>quicknovel_v1.4.0.apk</apkname>
+			<hash type="sha256">813f8ad57a6845a3834d6e63526d6d1293ceab79072009c1f0c263d09158a923</hash>
+			<size>14978123</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.3.1</version>
+			<versioncode>9</versioncode>
+			<apkname>quicknovel_v1.3.1.apk</apkname>
+			<hash type="sha256">1e4dc5bff465b9d16d0744e3494cfdab874b16db5b7f01768eb8104d26ba21c0</hash>
+			<size>14166091</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.3.0</version>
+			<versioncode>7</versioncode>
+			<apkname>quicknovel_v1.3.0.apk</apkname>
+			<hash type="sha256">2b89d78635066825092333acc0d67e46f562bebd59af5b9cef84964d62f0d3dd</hash>
+			<size>14034952</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.2.1</version>
+			<versioncode>6</versioncode>
+			<apkname>quicknovel_v1.2.1.apk</apkname>
+			<hash type="sha256">934ba9403a9d7be8d8c2e669022a02b2cf92bd8b42ba6da2a08f08a12b91f9f5</hash>
+			<size>13994241</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.2.0</version>
+			<versioncode>5</versioncode>
+			<apkname>quicknovel_v1.2.0.apk</apkname>
+			<hash type="sha256">f3c3126e3de3dfb84c707b46ce0edbb04af0380b0dd3ec78d0d453937b781bb2</hash>
+			<size>14277886</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.1.2</version>
+			<versioncode>3</versioncode>
+			<apkname>quicknovel_v1.1.2.apk</apkname>
+			<hash type="sha256">6949db973c5e44ceab537d31d2c193e5673d90e188d96f8c09acba724c5eb965</hash>
+			<size>13374621</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,REQUEST_INSTALL_PACKAGES,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.1.0</version>
+			<versioncode>2</versioncode>
+			<apkname>quicknovel_v1.1.0.apk</apkname>
+			<hash type="sha256">c0175b3d02736d628e08d95e907741d639793114ff1bd9bde9b65f8ed9d93531</hash>
+			<size>13353786</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>1.0.0</version>
+			<versioncode>1</versioncode>
+			<apkname>quicknovel_v1.0.0.apk</apkname>
+			<hash type="sha256">63acb6be96f6d47af959e2dae019b5778836fa85ea15166074f1349ee81bb1b5</hash>
+			<size>13349458</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 	</application>

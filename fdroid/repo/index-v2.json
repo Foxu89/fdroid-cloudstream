@@ -14,8 +14,13 @@
       }
     },
     "address": "https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo",
-    "timestamp": 1786732981000,
+    "timestamp": 1786736206000,
     "categories": {
+      "Books": {
+        "name": {
+          "en-US": "Books"
+        }
+      },
       "Internet": {
         "name": {
           "en-US": "Internet"
@@ -24,6 +29,11 @@
       "Multimedia": {
         "name": {
           "en-US": "Multimedia"
+        }
+      },
+      "Reading": {
+        "name": {
+          "en-US": "Reading"
         }
       }
     }
@@ -1321,6 +1331,3513 @@
               },
               {
                 "name": "com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.lagradost.quicknovel": {
+      "metadata": {
+        "added": 1786736136000,
+        "categories": [
+          "Books",
+          "Reading"
+        ],
+        "lastUpdated": 1786736198000,
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/LagradOst/QuickNovel",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.lagradost.quicknovel/en-US/phoneScreenshots/1.jpg",
+                "sha256": "2fa3594912cdf7140d1490254dad625cf6d7570f0d74f8108188fe76a47f59dc",
+                "size": 1067374
+              },
+              {
+                "name": "/com.lagradost.quicknovel/en-US/phoneScreenshots/2.jpg",
+                "sha256": "e8a82944c16a225130ab18b0ba4b5e9876e818de4178243ac041dcdd7b894301",
+                "size": 312061
+              },
+              {
+                "name": "/com.lagradost.quicknovel/en-US/phoneScreenshots/3.jpg",
+                "sha256": "6fd281e5a9df8979efcdd963cce1ff637e7c09545c105eb81af664c2919e5818",
+                "size": 1135772
+              },
+              {
+                "name": "/com.lagradost.quicknovel/en-US/phoneScreenshots/4.jpg",
+                "sha256": "bc55a012bbef4d79f69d425903a29548ab1e4dfad18737cbe11e04c8fb8e2a72",
+                "size": 566750
+              },
+              {
+                "name": "/com.lagradost.quicknovel/en-US/phoneScreenshots/5.jpg",
+                "sha256": "6a7fe210324f96c8309e4f1c72da38601049b3c4b373bfce789b45136538b54c",
+                "size": 452327
+              }
+            ]
+          }
+        },
+        "authorName": "LagradOst",
+        "name": {
+          "en-US": "QuickNovel"
+        },
+        "summary": {
+          "en-US": "Open-source Android application for downloading and reading light novels and ..."
+        },
+        "description": {
+          "en-US": "QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.\n\nKey features:\n\n- Download novels for offline reading in EPUB or PDF formats\n- Built-in customizable reader with text sizing, fonts, and night mode\n- Integrated online translation support for foreign language sources\n- Advanced search and filtering across multiple provider sources\n- Built-in Text-To-Speech (TTS) integration for listening on the go\n- Organized library management with bookmarks, history, and reading progress\n- Completely ad-free and open-source experience\n- Optimized interface for Android phones and tablets\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.lagradost.quicknovel/en-US/icon_VxlngCQBNEOZ8PEhuzN5LMjSmZeyw4VS8Hq-p_zA__k=.png",
+            "sha256": "571967802401344399f0f121bb33792cc8d29997b2c38552f07abea7fcc0fff9",
+            "size": 10005
+          }
+        },
+        "preferredSigner": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+      },
+      "versions": {
+        "66e46c820bd20deefee9387734d8954110626f3819e4e9a8c2e936f7f2fb1771": {
+          "added": 1786736171000,
+          "file": {
+            "name": "/quicknovel_v3.2.5.apk",
+            "sha256": "66e46c820bd20deefee9387734d8954110626f3819e4e9a8c2e936f7f2fb1771",
+            "size": 11755328
+          },
+          "manifest": {
+            "versionName": "3.2.5",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "5ea46e7ada21a364d1ec19f8d72a650e8066a9b4c331707877f78e6747920b40": {
+          "added": 1786736172000,
+          "file": {
+            "name": "/quicknovel_v3.3.0.apk",
+            "sha256": "5ea46e7ada21a364d1ec19f8d72a650e8066a9b4c331707877f78e6747920b40",
+            "size": 11805696
+          },
+          "manifest": {
+            "versionName": "3.3.0",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "f31d043dbf940a26d272f9fa40d59493290edc2bb1b41e7e347e62a70af90b1e": {
+          "added": 1786736173000,
+          "file": {
+            "name": "/quicknovel_v3.3.1.apk",
+            "sha256": "f31d043dbf940a26d272f9fa40d59493290edc2bb1b41e7e347e62a70af90b1e",
+            "size": 11829335
+          },
+          "manifest": {
+            "versionName": "3.3.1",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "e5dcb25df6a3b07aba35b35a0b74ee98402f20edc3dbaab4f5d0858b6167184d": {
+          "added": 1786736174000,
+          "file": {
+            "name": "/quicknovel_v3.3.2.apk",
+            "sha256": "e5dcb25df6a3b07aba35b35a0b74ee98402f20edc3dbaab4f5d0858b6167184d",
+            "size": 39654022
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.2",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "dac458ce2d91235883c6a64d34c652af1a97c9907296d4433285833798e729ee": {
+          "added": 1786736175000,
+          "file": {
+            "name": "/quicknovel_v3.3.3.apk",
+            "sha256": "dac458ce2d91235883c6a64d34c652af1a97c9907296d4433285833798e729ee",
+            "size": 39683576
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.3",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "a3f8671e85e68e3576762ea5fb7f57f480c40916dd2ecbdbcb30f260eab2c638": {
+          "added": 1786736177000,
+          "file": {
+            "name": "/quicknovel_v3.3.5.apk",
+            "sha256": "a3f8671e85e68e3576762ea5fb7f57f480c40916dd2ecbdbcb30f260eab2c638",
+            "size": 39699162
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.5",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "688d36558f19aa443cef50dd67c6b6936185a525b2dbdc3fbb20a12e4764e94d": {
+          "added": 1786736178000,
+          "file": {
+            "name": "/quicknovel_v3.3.6.apk",
+            "sha256": "688d36558f19aa443cef50dd67c6b6936185a525b2dbdc3fbb20a12e4764e94d",
+            "size": 39552813
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.6",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "019cd491cdeaf02f921e5f137a2c0fc68178a98267176954520287a4ea124538": {
+          "added": 1786736179000,
+          "file": {
+            "name": "/quicknovel_v3.3.7.apk",
+            "sha256": "019cd491cdeaf02f921e5f137a2c0fc68178a98267176954520287a4ea124538",
+            "size": 39549924
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.7",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "f6d2819e603bac83256f73232c61ab9e844533713dea4193533ed0984c920ffd": {
+          "added": 1786736180000,
+          "file": {
+            "name": "/quicknovel_v3.3.8.apk",
+            "sha256": "f6d2819e603bac83256f73232c61ab9e844533713dea4193533ed0984c920ffd",
+            "size": 39549927
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.8",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "02bc7f84884cf59c80bfa6eae6f9b85d5811bcee86a0f31ebffb1176059d759b": {
+          "added": 1786736182000,
+          "file": {
+            "name": "/quicknovel_v3.3.9.apk",
+            "sha256": "02bc7f84884cf59c80bfa6eae6f9b85d5811bcee86a0f31ebffb1176059d759b",
+            "size": 39874963
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.9",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "25f2a3419ef6e5afb5631f8cbd5a10558c809d4fe747df1e9c202aff70676d6f": {
+          "added": 1786736183000,
+          "file": {
+            "name": "/quicknovel_v3.4.0.apk",
+            "sha256": "25f2a3419ef6e5afb5631f8cbd5a10558c809d4fe747df1e9c202aff70676d6f",
+            "size": 39865097
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.4.0",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "9998905a15fb0860665d37f38e5a6a6c050620b9e14a532cd4360287e7d5f367": {
+          "added": 1786736184000,
+          "file": {
+            "name": "/quicknovel_v3.4.1.apk",
+            "sha256": "9998905a15fb0860665d37f38e5a6a6c050620b9e14a532cd4360287e7d5f367",
+            "size": 39867229
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.4.1",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "60fdbb576e8cc887d1e3f24804e3a75a01ea89c90db15ed3bbc71b481e1bb214": {
+          "added": 1786736185000,
+          "file": {
+            "name": "/quicknovel_v3.4.2.apk",
+            "sha256": "60fdbb576e8cc887d1e3f24804e3a75a01ea89c90db15ed3bbc71b481e1bb214",
+            "size": 48428980
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.4.2",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "ad8ba65e9641e2a6ee49bf37e21a8619f444e65ffb21160994f30871fd464863": {
+          "added": 1786736187000,
+          "file": {
+            "name": "/quicknovel_v3.4.3.apk",
+            "sha256": "ad8ba65e9641e2a6ee49bf37e21a8619f444e65ffb21160994f30871fd464863",
+            "size": 48443985
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.4.3",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "729f45e55d2f3fab3c80a278f5b6257463d115157e7fc230857474549ec9f620": {
+          "added": 1786736188000,
+          "file": {
+            "name": "/quicknovel_v3.4.4.apk",
+            "sha256": "729f45e55d2f3fab3c80a278f5b6257463d115157e7fc230857474549ec9f620",
+            "size": 48497058
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.4.4",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "93118f9de06d8cf24dc5b60e0226f018e464781a5c2c2f0b79ff5365eb698c7b": {
+          "added": 1786736190000,
+          "file": {
+            "name": "/quicknovel_v3.5.0.apk",
+            "sha256": "93118f9de06d8cf24dc5b60e0226f018e464781a5c2c2f0b79ff5365eb698c7b",
+            "size": 48612898
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.5.0",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "1083eca1380fd5e90cd1d964ad9fda99c92982d22f6da0b3d7a772d1f7cdac23": {
+          "added": 1786736191000,
+          "file": {
+            "name": "/quicknovel_v3.6.0.apk",
+            "sha256": "1083eca1380fd5e90cd1d964ad9fda99c92982d22f6da0b3d7a772d1f7cdac23",
+            "size": 48726614
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.0",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "70483f0014a240f590aaa99f0bb87070ed6b90982c51c4ba3961b9764c2d57b7": {
+          "added": 1786736192000,
+          "file": {
+            "name": "/quicknovel_v3.6.1.apk",
+            "sha256": "70483f0014a240f590aaa99f0bb87070ed6b90982c51c4ba3961b9764c2d57b7",
+            "size": 48733781
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.1",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "8d916a9f1e792cc9fabdeea0020faa578e7e0eac92444a2ebe6ce7ac031ff312": {
+          "added": 1786736194000,
+          "file": {
+            "name": "/quicknovel_v3.7.1.apk",
+            "sha256": "8d916a9f1e792cc9fabdeea0020faa578e7e0eac92444a2ebe6ce7ac031ff312",
+            "size": 91095969
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.1",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54": {
+          "added": 1786736195000,
+          "file": {
+            "name": "/quicknovel_v3.7.2.apk",
+            "sha256": "0fb2fdacd55818960ec5d10e49031e49342ea5756a25f04e87747037c7460e54",
+            "size": 91145541
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.2",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "ce3fe9930eeaa37f3b7425fdd4023c154032321c311a6a33b9071ef98910e6bb": {
+          "added": 1786736197000,
+          "file": {
+            "name": "/quicknovel_v3.7.3.apk",
+            "sha256": "ce3fe9930eeaa37f3b7425fdd4023c154032321c311a6a33b9071ef98910e6bb",
+            "size": 91358624
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.3",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "5f2a56827bffe5d56841dee5063c01ba7068540bf738bf7bb52eb78bede579af": {
+          "added": 1786736198000,
+          "file": {
+            "name": "/quicknovel_v3.7.4.apk",
+            "sha256": "5f2a56827bffe5d56841dee5063c01ba7068540bf738bf7bb52eb78bede579af",
+            "size": 91375014
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.7.4",
+            "versionCode": 56,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "3b5354e8dbde5c673dbd1b35f576740b33fa67d7a1e8a7b450252d12f0bb02d0": {
+          "added": 1786736136000,
+          "file": {
+            "name": "/quicknovel_3.1.8.apk",
+            "sha256": "3b5354e8dbde5c673dbd1b35f576740b33fa67d7a1e8a7b450252d12f0bb02d0",
+            "size": 10528073
+          },
+          "manifest": {
+            "versionName": "3.1.8",
+            "versionCode": 55,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "8a83d7afe34a1e3763046b11bebcfdbc9bad4985f6383fcc3dd718146fa63001": {
+          "added": 1786736168000,
+          "file": {
+            "name": "/quicknovel_v3.1.9.apk",
+            "sha256": "8a83d7afe34a1e3763046b11bebcfdbc9bad4985f6383fcc3dd718146fa63001",
+            "size": 10530163
+          },
+          "manifest": {
+            "versionName": "3.1.9",
+            "versionCode": 55,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "2163738a155a67e972f22a8b0a592f9c4de1d53a7e2225ce8cc07ba407d1c971": {
+          "added": 1786736169000,
+          "file": {
+            "name": "/quicknovel_v3.2.0.apk",
+            "sha256": "2163738a155a67e972f22a8b0a592f9c4de1d53a7e2225ce8cc07ba407d1c971",
+            "size": 11106755
+          },
+          "manifest": {
+            "versionName": "3.2.0",
+            "versionCode": 55,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "2c16c8ebdeaccefbc23077811ce554c15a8eb4973d141b0f6e545e01e6eea16d": {
+          "added": 1786736169000,
+          "file": {
+            "name": "/quicknovel_v3.2.1.apk",
+            "sha256": "2c16c8ebdeaccefbc23077811ce554c15a8eb4973d141b0f6e545e01e6eea16d",
+            "size": 11414880
+          },
+          "manifest": {
+            "versionName": "3.2.1",
+            "versionCode": 55,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "47d442c3ccb3c382691dd45eef450523c5de31fb6c7325f35a150e382670b2e3": {
+          "added": 1786736170000,
+          "file": {
+            "name": "/quicknovel_v3.2.2.apk",
+            "sha256": "47d442c3ccb3c382691dd45eef450523c5de31fb6c7325f35a150e382670b2e3",
+            "size": 11355889
+          },
+          "manifest": {
+            "versionName": "3.2.2",
+            "versionCode": 55,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "2aee06079a5cf4f1e12ce6a06f25722310c45b0f4e6f22e27b949efee32eb2f6": {
+          "added": 1786736165000,
+          "file": {
+            "name": "/quicknovel_v3.1.4.apk",
+            "sha256": "2aee06079a5cf4f1e12ce6a06f25722310c45b0f4e6f22e27b949efee32eb2f6",
+            "size": 10481598
+          },
+          "manifest": {
+            "versionName": "3.1.4",
+            "versionCode": 54,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "0668520660f89ade44ec06ddbba1841794a728f0470f1f16a606b12a2286e8b0": {
+          "added": 1786736166000,
+          "file": {
+            "name": "/quicknovel_v3.1.5.apk",
+            "sha256": "0668520660f89ade44ec06ddbba1841794a728f0470f1f16a606b12a2286e8b0",
+            "size": 10554584
+          },
+          "manifest": {
+            "versionName": "3.1.5",
+            "versionCode": 54,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "c6e4d5a1796c589bf61c767697bc05889f02bb8b0b3ac6f78dbd9de326b563a5": {
+          "added": 1786736166000,
+          "file": {
+            "name": "/quicknovel_v3.1.6.apk",
+            "sha256": "c6e4d5a1796c589bf61c767697bc05889f02bb8b0b3ac6f78dbd9de326b563a5",
+            "size": 10521360
+          },
+          "manifest": {
+            "versionName": "3.1.6",
+            "versionCode": 54,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "ca5d73e6436170437d26a077f06122b5e6beb2d4631ba0cd8504b5b84f73461b": {
+          "added": 1786736167000,
+          "file": {
+            "name": "/quicknovel_v3.1.7.apk",
+            "sha256": "ca5d73e6436170437d26a077f06122b5e6beb2d4631ba0cd8504b5b84f73461b",
+            "size": 10525294
+          },
+          "manifest": {
+            "versionName": "3.1.7",
+            "versionCode": 54,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "b99813eafb607bdfab7b90ed55325aba3f79c08b6ef0bec9c47f2aa51e7525b5": {
+          "added": 1786736164000,
+          "file": {
+            "name": "/quicknovel_v3.1.3.apk",
+            "sha256": "b99813eafb607bdfab7b90ed55325aba3f79c08b6ef0bec9c47f2aa51e7525b5",
+            "size": 10480695
+          },
+          "manifest": {
+            "versionName": "3.1.3",
+            "versionCode": 53,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "69fc242a70717e331f35199229da3dd14e0bb1b005906eea6d8c380984b1cf25": {
+          "added": 1786736163000,
+          "file": {
+            "name": "/quicknovel_v3.1.2.apk",
+            "sha256": "69fc242a70717e331f35199229da3dd14e0bb1b005906eea6d8c380984b1cf25",
+            "size": 10482565
+          },
+          "manifest": {
+            "versionName": "3.1.2",
+            "versionCode": 52,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "cc7ca183cf56cf777c323f803feaa29848dadd37012d3cad759dd88e6b92face": {
+          "added": 1786736163000,
+          "file": {
+            "name": "/quicknovel_v3.1.1.apk",
+            "sha256": "cc7ca183cf56cf777c323f803feaa29848dadd37012d3cad759dd88e6b92face",
+            "size": 10476539
+          },
+          "manifest": {
+            "versionName": "3.1.1",
+            "versionCode": 51,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "c47a9104b8cbc6924aae9497b95daa4ff5ce733ba58f2445390e404b0fe883c5": {
+          "added": 1786736162000,
+          "file": {
+            "name": "/quicknovel_v3.1.0.apk",
+            "sha256": "c47a9104b8cbc6924aae9497b95daa4ff5ce733ba58f2445390e404b0fe883c5",
+            "size": 10469965
+          },
+          "manifest": {
+            "versionName": "3.1.0",
+            "versionCode": 50,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "439e4a18b5ae72eb1fa619b768577f4652e99bf08009f8d0e7733728f791fc3a": {
+          "added": 1786736161000,
+          "file": {
+            "name": "/quicknovel_v3.0.1.apk",
+            "sha256": "439e4a18b5ae72eb1fa619b768577f4652e99bf08009f8d0e7733728f791fc3a",
+            "size": 10381004
+          },
+          "manifest": {
+            "versionName": "3.0.1",
+            "versionCode": 49,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "59c514ad564e1976a52d256e21fc8ea1f837a4e89d0efe58bcf5849cf78b394d": {
+          "added": 1786736160000,
+          "file": {
+            "name": "/quicknovel_v3.0.0.apk",
+            "sha256": "59c514ad564e1976a52d256e21fc8ea1f837a4e89d0efe58bcf5849cf78b394d",
+            "size": 10353070
+          },
+          "manifest": {
+            "versionName": "3.0.0",
+            "versionCode": 48,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "21cd07690d839931931d7c60e144e9e2c630dd05c32e13df54dd56aa8219bd29": {
+          "added": 1786736160000,
+          "file": {
+            "name": "/quicknovel_v2.3.1.apk",
+            "sha256": "21cd07690d839931931d7c60e144e9e2c630dd05c32e13df54dd56aa8219bd29",
+            "size": 10074996
+          },
+          "manifest": {
+            "versionName": "2.3.1",
+            "versionCode": 47,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "9a40098962364ea266f349dd534624014fc66898ab1badee6bd005d87bf6b4fc": {
+          "added": 1786736159000,
+          "file": {
+            "name": "/quicknovel_v2.3.0.apk",
+            "sha256": "9a40098962364ea266f349dd534624014fc66898ab1badee6bd005d87bf6b4fc",
+            "size": 10074236
+          },
+          "manifest": {
+            "versionName": "2.3.0",
+            "versionCode": 45,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "6f505704d16ddc909ebf63f2e9dbf38fbe8312a92a9d32fad0e29e41477b6b19": {
+          "added": 1786736158000,
+          "file": {
+            "name": "/quicknovel_v2.2.1.apk",
+            "sha256": "6f505704d16ddc909ebf63f2e9dbf38fbe8312a92a9d32fad0e29e41477b6b19",
+            "size": 10074227
+          },
+          "manifest": {
+            "versionName": "2.2.1",
+            "versionCode": 43,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "7dd6bc6c5800be4d6dddb008bd617fa9a87ea2d9a8a4a391228fe3a37a1aa068": {
+          "added": 1786736158000,
+          "file": {
+            "name": "/quicknovel_v2.2.0.apk",
+            "sha256": "7dd6bc6c5800be4d6dddb008bd617fa9a87ea2d9a8a4a391228fe3a37a1aa068",
+            "size": 10072917
+          },
+          "manifest": {
+            "versionName": "2.2.0",
+            "versionCode": 42,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "9582508861cd397ea74726a4ed6957358174a290e6d3e1e433b7a0c7ac0e6d5d": {
+          "added": 1786736157000,
+          "file": {
+            "name": "/quicknovel_v2.1.0.apk",
+            "sha256": "9582508861cd397ea74726a4ed6957358174a290e6d3e1e433b7a0c7ac0e6d5d",
+            "size": 10044464
+          },
+          "manifest": {
+            "versionName": "2.1.0",
+            "versionCode": 41,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "35428f953074c67ac397bb25cfd882bd29926e85d95baf0378a0da735689858f": {
+          "added": 1786736156000,
+          "file": {
+            "name": "/quicknovel_v2.0.0.apk",
+            "sha256": "35428f953074c67ac397bb25cfd882bd29926e85d95baf0378a0da735689858f",
+            "size": 9870202
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 40,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "c823de248ce08a07cb563f627c845439b88f0e06aee62ac3b0cb7d7eaa40252e": {
+          "added": 1786736155000,
+          "file": {
+            "name": "/quicknovel_v1.9.7.apk",
+            "sha256": "c823de248ce08a07cb563f627c845439b88f0e06aee62ac3b0cb7d7eaa40252e",
+            "size": 11309778
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.9.7",
+            "versionCode": 39,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "840432a18a6c5460e84a074cd5a04157be5ff44640f5a7ac38f02fab96194fd1": {
+          "added": 1786736155000,
+          "file": {
+            "name": "/quicknovel_v1.9.6.apk",
+            "sha256": "840432a18a6c5460e84a074cd5a04157be5ff44640f5a7ac38f02fab96194fd1",
+            "size": 10879103
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.9.6",
+            "versionCode": 38,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "3c52afbfcb9ab37d0a1d66d3bb1a6b28357d313aa3d605e4f974db99f0a0f873": {
+          "added": 1786736154000,
+          "file": {
+            "name": "/quicknovel_v1.8.3.apk",
+            "sha256": "3c52afbfcb9ab37d0a1d66d3bb1a6b28357d313aa3d605e4f974db99f0a0f873",
+            "size": 16224198
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.3",
+            "versionCode": 35,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "c01a7fd7461e2ccafb2f96eecf265f8cd14a5baa9c119bb3ba5f63ae3282864c": {
+          "added": 1786736153000,
+          "file": {
+            "name": "/quicknovel_v1.8.2.apk",
+            "sha256": "c01a7fd7461e2ccafb2f96eecf265f8cd14a5baa9c119bb3ba5f63ae3282864c",
+            "size": 16224181
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.2",
+            "versionCode": 34,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "556de47628a0a5411874da9c4573934a0fc7a1ecf67064399db464ade74d5db7": {
+          "added": 1786736152000,
+          "file": {
+            "name": "/quicknovel_v1.8.0.apk",
+            "sha256": "556de47628a0a5411874da9c4573934a0fc7a1ecf67064399db464ade74d5db7",
+            "size": 15855876
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.0",
+            "versionCode": 33,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "79f3f60d6bdd347a8e009b048e0acf5652783a1744fa3ef5d1c07e6937714c21": {
+          "added": 1786736152000,
+          "file": {
+            "name": "/quicknovel_v1.8.1.apk",
+            "sha256": "79f3f60d6bdd347a8e009b048e0acf5652783a1744fa3ef5d1c07e6937714c21",
+            "size": 15864164
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.1",
+            "versionCode": 33,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "2affd7f20b83b20503f0f91d772cc52cda866cb5b5a0f027429724cfbce58d1e": {
+          "added": 1786736151000,
+          "file": {
+            "name": "/quicknovel_v1.7.6.apk",
+            "sha256": "2affd7f20b83b20503f0f91d772cc52cda866cb5b5a0f027429724cfbce58d1e",
+            "size": 15596632
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.6",
+            "versionCode": 32,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "1bfb407897df0becb2295d7068add58e720dddfbb96b9c0b475953ebcf57acde": {
+          "added": 1786736150000,
+          "file": {
+            "name": "/quicknovel_v1.7.5.apk",
+            "sha256": "1bfb407897df0becb2295d7068add58e720dddfbb96b9c0b475953ebcf57acde",
+            "size": 15602666
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.5",
+            "versionCode": 31,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "98f5ae0fa3f83c0705add675acf1e91f0e9a14bf436a9a912f659a76e31446d7": {
+          "added": 1786736150000,
+          "file": {
+            "name": "/quicknovel_v1.7.3.apk",
+            "sha256": "98f5ae0fa3f83c0705add675acf1e91f0e9a14bf436a9a912f659a76e31446d7",
+            "size": 15471464
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.3",
+            "versionCode": 29,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "34d1574f3b23662d70deff37342759a1cf3a3e5347f55ea1866a3a1887d3b2ad": {
+          "added": 1786736149000,
+          "file": {
+            "name": "/quicknovel_v1.7.2.apk",
+            "sha256": "34d1574f3b23662d70deff37342759a1cf3a3e5347f55ea1866a3a1887d3b2ad",
+            "size": 18940552
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.2",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "de4671ee3feb725f07fdf320a00cd31a24e92bdd7dc74f30f51de77def3b42e2": {
+          "added": 1786736148000,
+          "file": {
+            "name": "/quicknovel_v1.7.1.apk",
+            "sha256": "de4671ee3feb725f07fdf320a00cd31a24e92bdd7dc74f30f51de77def3b42e2",
+            "size": 15446678
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.1",
+            "versionCode": 27,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "a8ffdb023972b554b29340b508482629668559010ffe2dd38349ebeff2aeefb4": {
+          "added": 1786736148000,
+          "file": {
+            "name": "/quicknovel_v1.7.0.apk",
+            "sha256": "a8ffdb023972b554b29340b508482629668559010ffe2dd38349ebeff2aeefb4",
+            "size": 15438890
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7.0",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "e5594d1ea7a892da92dbfb553c2767ad51c1536b1ac7db3d5e8df08fe18679fe": {
+          "added": 1786736147000,
+          "file": {
+            "name": "/quicknovel_v1.6.3.apk",
+            "sha256": "e5594d1ea7a892da92dbfb553c2767ad51c1536b1ac7db3d5e8df08fe18679fe",
+            "size": 15341109
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.6.3",
+            "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "efbeea6f4210e856d278c7816807ff6b16cb4a04ab26f0f8082c5c0c34495acd": {
+          "added": 1786736146000,
+          "file": {
+            "name": "/quicknovel_v1.6.2.apk",
+            "sha256": "efbeea6f4210e856d278c7816807ff6b16cb4a04ab26f0f8082c5c0c34495acd",
+            "size": 15336477
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.6.2",
+            "versionCode": 24,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "1695645778b872b9730fee3fd3a01a66bdf4f1d512ef1cec99da2658888b64f1": {
+          "added": 1786736146000,
+          "file": {
+            "name": "/quicknovel_v1.6.0.apk",
+            "sha256": "1695645778b872b9730fee3fd3a01a66bdf4f1d512ef1cec99da2658888b64f1",
+            "size": 15313262
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.6.0",
+            "versionCode": 22,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "a133755139640f9a03329390250408b97c65ad84ef3165602346391c079f3869": {
+          "added": 1786736145000,
+          "file": {
+            "name": "/quicknovel_v1.5.3.apk",
+            "sha256": "a133755139640f9a03329390250408b97c65ad84ef3165602346391c079f3869",
+            "size": 15238329
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.5.3",
+            "versionCode": 21,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "e3d96f933f55a0836b8d1daba48245f54386e1a75e126c7ca12b316e0d54b93a": {
+          "added": 1786736144000,
+          "file": {
+            "name": "/quicknovel_v1.5.1.apk",
+            "sha256": "e3d96f933f55a0836b8d1daba48245f54386e1a75e126c7ca12b316e0d54b93a",
+            "size": 15225654
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.5.1",
+            "versionCode": 19,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "af3c3f0c04edae7c45459dfd820fabac90d3d683efa43cb8c6f925adca12928d": {
+          "added": 1786736144000,
+          "file": {
+            "name": "/quicknovel_v1.5.0.apk",
+            "sha256": "af3c3f0c04edae7c45459dfd820fabac90d3d683efa43cb8c6f925adca12928d",
+            "size": 15221760
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.5.0",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "6114eb2516178b84bfb408823f6482080cc6c9ebd13ae4f85490ed709d59547c": {
+          "added": 1786736143000,
+          "file": {
+            "name": "/quicknovel_v1.4.7.apk",
+            "sha256": "6114eb2516178b84bfb408823f6482080cc6c9ebd13ae4f85490ed709d59547c",
+            "size": 14996211
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.4.7",
+            "versionCode": 17,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "ae726caa7b3079932eab37fecf9c57207fb22f4438f5381b00325b313c54d84b": {
+          "added": 1786736142000,
+          "file": {
+            "name": "/quicknovel_v1.4.2.apk",
+            "sha256": "ae726caa7b3079932eab37fecf9c57207fb22f4438f5381b00325b313c54d84b",
+            "size": 14990327
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.4.2",
+            "versionCode": 12,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "fa4e14b50d0a2d63076ba6f23b2b9131695dceecacd13656516dcc6a6ada7c3c": {
+          "added": 1786736142000,
+          "file": {
+            "name": "/quicknovel_v1.4.1.apk",
+            "sha256": "fa4e14b50d0a2d63076ba6f23b2b9131695dceecacd13656516dcc6a6ada7c3c",
+            "size": 14978176
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.4.1",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "813f8ad57a6845a3834d6e63526d6d1293ceab79072009c1f0c263d09158a923": {
+          "added": 1786736141000,
+          "file": {
+            "name": "/quicknovel_v1.4.0.apk",
+            "sha256": "813f8ad57a6845a3834d6e63526d6d1293ceab79072009c1f0c263d09158a923",
+            "size": 14978123
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.4.0",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "1e4dc5bff465b9d16d0744e3494cfdab874b16db5b7f01768eb8104d26ba21c0": {
+          "added": 1786736140000,
+          "file": {
+            "name": "/quicknovel_v1.3.1.apk",
+            "sha256": "1e4dc5bff465b9d16d0744e3494cfdab874b16db5b7f01768eb8104d26ba21c0",
+            "size": 14166091
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.3.1",
+            "versionCode": 9,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "2b89d78635066825092333acc0d67e46f562bebd59af5b9cef84964d62f0d3dd": {
+          "added": 1786736139000,
+          "file": {
+            "name": "/quicknovel_v1.3.0.apk",
+            "sha256": "2b89d78635066825092333acc0d67e46f562bebd59af5b9cef84964d62f0d3dd",
+            "size": 14034952
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "934ba9403a9d7be8d8c2e669022a02b2cf92bd8b42ba6da2a08f08a12b91f9f5": {
+          "added": 1786736139000,
+          "file": {
+            "name": "/quicknovel_v1.2.1.apk",
+            "sha256": "934ba9403a9d7be8d8c2e669022a02b2cf92bd8b42ba6da2a08f08a12b91f9f5",
+            "size": 13994241
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.2.1",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "f3c3126e3de3dfb84c707b46ce0edbb04af0380b0dd3ec78d0d453937b781bb2": {
+          "added": 1786736138000,
+          "file": {
+            "name": "/quicknovel_v1.2.0.apk",
+            "sha256": "f3c3126e3de3dfb84c707b46ce0edbb04af0380b0dd3ec78d0d453937b781bb2",
+            "size": 14277886
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.2.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "6949db973c5e44ceab537d31d2c193e5673d90e188d96f8c09acba724c5eb965": {
+          "added": 1786736138000,
+          "file": {
+            "name": "/quicknovel_v1.1.2.apk",
+            "sha256": "6949db973c5e44ceab537d31d2c193e5673d90e188d96f8c09acba724c5eb965",
+            "size": 13374621
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "c0175b3d02736d628e08d95e907741d639793114ff1bd9bde9b65f8ed9d93531": {
+          "added": 1786736137000,
+          "file": {
+            "name": "/quicknovel_v1.1.0.apk",
+            "sha256": "c0175b3d02736d628e08d95e907741d639793114ff1bd9bde9b65f8ed9d93531",
+            "size": 13353786
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.1.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "63acb6be96f6d47af959e2dae019b5778836fa85ea15166074f1349ee81bb1b5": {
+          "added": 1786736137000,
+          "file": {
+            "name": "/quicknovel_v1.0.0.apk",
+            "sha256": "63acb6be96f6d47af959e2dae019b5778836fa85ea15166074f1349ee81bb1b5",
+            "size": 13349458
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
               }
             ]
           }

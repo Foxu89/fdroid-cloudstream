@@ -1,0 +1,7 @@
++ Updated/changed a lot of UI
++ Added "Recently updated"
++ Added search in downloads and bookmarks
++ Added option to select text
++ Added persistent tab
++ Fixed error and loading in explore
++ Fixed TTS not starting
