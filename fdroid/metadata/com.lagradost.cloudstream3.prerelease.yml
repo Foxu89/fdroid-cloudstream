@@ -9,18 +9,21 @@ IssueTracker: https://github.com/recloudstream/cloudstream/issues
 Changelog: https://github.com/recloudstream/cloudstream/releases
 
 Name: CloudStream (Pre-release)
-Summary: Android app for streaming and downloading Movies, TV-Series and Anime. (Prerelease)
+Summary: Pre-release testing build for Cloudstream.
 Description: |-
-    CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.
-    This application is the automatically generated preview build and may not be as stable as the releases.
+    Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.
 
-    FEATURES:
+    Key features:
 
-    * AdFree, No ads whatsoever
-    * No tracking/analytics
-    * Bookmarks
-    * Download and stream movies, tv-shows and anime
-    * Chromecast
+    - Bleeding-edge features and updates before public release
+    - Early access to experimental improvements and fixes
+    - Completely ad-free experience
+    - No analytics, telemetry, or user tracking
+    - Offline downloads for local media playback
+    - Full Chromecast support
+    - Integrated bookmarks, history, and episode tracking
+    - Modular extension system for external providers
+    - Optimized interface for both phones and Android TV
 
 AutoUpdateMode: None
 UpdateCheckMode: None

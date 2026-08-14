@@ -84,7 +84,9 @@ func main() {
 		if err != nil {
 			log.Printf("Error while looking up repo: %s", err.Error())
 		} else {
-			app.Summary = gitHubRepo.GetDescription()
+			if app.Summary == "" {
+				app.Summary = gitHubRepo.GetDescription()
+			}
 
 			if gitHubRepo.License != nil && gitHubRepo.License.SPDXID != nil {
 				app.License = *gitHubRepo.License.SPDXID

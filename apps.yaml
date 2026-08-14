@@ -1,16 +1,19 @@
 cloudstream:
   git: https://github.com/recloudstream/cloudstream
   name: "CloudStream"
+  summary: "Open-source Android application for streaming and downloading media."
   description: |
-    CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.
+    Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.
 
-    <b>Features</b>
+    Key features:
 
-    - AdFree, no ads whatsoever
-    - No tracking/analytics
-    - Bookmarks
-    - Download and stream movies, tv-shows and anime
-    - Chromecast
+    - Completely ad-free experience
+    - No analytics, telemetry, or user tracking
+    - Offline downloads for local media playback
+    - Full Chromecast support
+    - Integrated bookmarks, history, and episode tracking
+    - Modular extension system for external providers
+    - Optimized interface for both phones and Android TV
 
   categories:
     - Multimedia
