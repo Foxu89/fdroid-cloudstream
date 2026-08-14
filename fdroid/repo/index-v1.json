@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786708146000,
+    "timestamp": 1786724893000,
     "version": 20002,
     "name": "CloudStream F-Droid repo",
     "icon": "icon.png",
@@ -13,17 +13,6 @@
   },
   "apps": [
     {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "categories",
-      "added": 1778040345000,
-      "packageName": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-      "lastUpdated": 1778040345000
-    },
-    {
       "authorName": "recloudstream",
       "categories": [
         "Multimedia",
@@ -31,11 +20,11 @@
       ],
       "suggestedVersionName": "4.8.0",
       "suggestedVersionCode": "68",
-      "description": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\n\n<b>Features</b>\n\n- AdFree, no ads whatsoever\n- No tracking/analytics\n- Bookmarks\n- Download and stream movies, tv-shows and anime\n- Chromecast\n",
+      "description": "Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.\n\nKey features:\n\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV\n",
       "license": "GPL-3.0",
       "name": "CloudStream",
       "sourceCode": "https://github.com/recloudstream/cloudstream",
-      "summary": "Android app for streaming and downloading media.",
+      "summary": "Open-source Android application for streaming and downloading media.",
       "added": 1786708117000,
       "packageName": "com.lagradost.cloudstream3",
       "lastUpdated": 1786708139000,
@@ -53,12 +42,12 @@
       ],
       "changelog": "https://github.com/recloudstream/cloudstream/releases",
       "suggestedVersionCode": "29758503",
-      "description": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\nThis application is the automatically generated preview build and may not be as stable as the releases.\n\nFEATURES:\n\n* AdFree, No ads whatsoever\n* No tracking/analytics\n* Bookmarks\n* Download and stream movies, tv-shows and anime\n* Chromecast",
+      "description": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV",
       "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
       "license": "MIT",
       "name": "CloudStream (Pre-release)",
       "sourceCode": "https://github.com/recloudstream/cloudstream",
-      "summary": "Android app for streaming and downloading Movies, TV-Series and Anime. (Prerelease)",
+      "summary": "Pre-release testing build for Cloudstream.",
       "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
       "added": 1786708116000,
       "packageName": "com.lagradost.cloudstream3.prerelease",
@@ -66,17 +55,6 @@
     }
   ],
   "packages": {
-    "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": [
-      {
-        "added": 1778040345000,
-        "apkName": "categories.txt",
-        "hash": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-        "hashType": "sha256",
-        "packageName": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-        "size": 44,
-        "versionName": "b727643"
-      }
-    ],
     "com.lagradost.cloudstream3": [
       {
         "added": 1786708137000,

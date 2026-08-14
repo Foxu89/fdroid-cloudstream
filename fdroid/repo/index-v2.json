@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo",
-    "timestamp": 1786708146000,
+    "timestamp": 1786724893000,
     "categories": {
       "Internet": {
         "name": {
@@ -25,41 +25,10 @@
         "name": {
           "en-US": "Multimedia"
         }
-      },
-      "fdroid": {
-        "name": {
-          "en-US": "fdroid"
-        }
       }
     }
   },
   "packages": {
-    "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": {
-      "metadata": {
-        "added": 1778040345000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1778040345000,
-        "name": {
-          "en-US": "categories"
-        }
-      },
-      "versions": {
-        "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220": {
-          "added": 1778040345000,
-          "file": {
-            "name": "/categories.txt",
-            "sha256": "b727643b9bfb75cb70554fac1e487fd12afdfcd9f9d1024c5e6c3d3f0d6e7220",
-            "size": 44
-          },
-          "manifest": {
-            "versionName": "b727643",
-            "versionCode": 0
-          }
-        }
-      }
-    },
     "com.lagradost.cloudstream3": {
       "metadata": {
         "added": 1786708117000,
@@ -75,10 +44,10 @@
           "en-US": "CloudStream"
         },
         "summary": {
-          "en-US": "Android app for streaming and downloading media."
+          "en-US": "Open-source Android application for streaming and downloading media."
         },
         "description": {
-          "en-US": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\n\n<b>Features</b>\n\n- AdFree, no ads whatsoever\n- No tracking/analytics\n- Bookmarks\n- Download and stream movies, tv-shows and anime\n- Chromecast\n"
+          "en-US": "Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.\n\nKey features:\n\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV\n"
         },
         "preferredSigner": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
       },
@@ -1244,10 +1213,10 @@
           "en-US": "CloudStream (Pre-release)"
         },
         "summary": {
-          "en-US": "Android app for streaming and downloading Movies, TV-Series and Anime. (Prerelease)"
+          "en-US": "Pre-release testing build for Cloudstream."
         },
         "description": {
-          "en-US": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\nThis application is the automatically generated preview build and may not be as stable as the releases.\n\nFEATURES:\n\n* AdFree, No ads whatsoever\n* No tracking/analytics\n* Bookmarks\n* Download and stream movies, tv-shows and anime\n* Chromecast"
+          "en-US": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV"
         },
         "preferredSigner": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
       },
