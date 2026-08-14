@@ -29,6 +29,11 @@ jobs:
          sudo apt-get update
          sudo apt-get install fdroidserver
 
+      - name: Ignore F-Droid ResParseError
+        run: |
+          sudo sed -i 's|raise ResParserError("res0 must be zero!")|log.warning("res0 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
+          sudo sed -i 's|raise ResParserError("res1 must be zero!")|log.warning("res1 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
+
       - name: Set up repo secrets
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
