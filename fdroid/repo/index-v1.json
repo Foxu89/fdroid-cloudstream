@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786724893000,
+    "timestamp": 1786728997000,
     "version": 20002,
     "name": "CloudStream F-Droid repo",
     "icon": "icon.png",
@@ -30,6 +30,7 @@
       "lastUpdated": 1786708139000,
       "localized": {
         "en-US": {
+          "icon": "icon_Ddr6oob_kIZ66OBXpqKIWKfr5KkDKF3NBp4zRh41od8=.png",
           "whatsNew": "+ Added intro skip database\n+ Added metadata overlay on TV\n+ Added more external players\n+ Fixed some security issues\n+ Fixed some download issues\n+ Updated filler database\n+ Updated some UI/UX\n+ Internal code changes"
         }
       }
@@ -51,7 +52,12 @@
       "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
       "added": 1786708116000,
       "packageName": "com.lagradost.cloudstream3.prerelease",
-      "lastUpdated": 1786708116000
+      "lastUpdated": 1786708116000,
+      "localized": {
+        "en-US": {
+          "icon": "icon_8tDQHDzSz002WurVgP2vTJoBDoojHp_erCdxOxb6qx4=.png"
+        }
+      }
     }
   ],
   "packages": {

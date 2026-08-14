@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo",
-    "timestamp": 1786724893000,
+    "timestamp": 1786728997000,
     "categories": {
       "Internet": {
         "name": {
@@ -48,6 +48,13 @@
         },
         "description": {
           "en-US": "Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.\n\nKey features:\n\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.lagradost.cloudstream3/en-US/icon_Ddr6oob_kIZ66OBXpqKIWKfr5KkDKF3NBp4zRh41od8=.png",
+            "sha256": "0ddafaa286ff90867ae8e057a6a28858a7ebe4a903285dcd069e33461e35a1df",
+            "size": 9478
+          }
         },
         "preferredSigner": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
       },
@@ -1217,6 +1224,13 @@
         },
         "description": {
           "en-US": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.lagradost.cloudstream3.prerelease/en-US/icon_8tDQHDzSz002WurVgP2vTJoBDoojHp_erCdxOxb6qx4=.png",
+            "sha256": "f2d0d01c3cd2cf4d365aead580fdaf4c9a010e8a231e9fdeac27713b16faab1e",
+            "size": 9020
+          }
         },
         "preferredSigner": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
       },
