@@ -1,458 +1,214 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="Apps by xarantolus" pubkey="30820505308202eda003020102020452b56a99300d06092a864886f70d01010b050030333110300e060355040b1307462d44726f6964311f301d060355040313165068696c6970702d50432e6c6f63616c646f6d61696e301e170d3231313031303133313832305a170d3439303232353133313832305a30333110300e060355040b1307462d44726f6964311f301d060355040313165068696c6970702d50432e6c6f63616c646f6d61696e30820222300d06092a864886f70d01010105000382020f003082020a0282020100aee3dd96d55e20077a6de60afbcbe8628221f828d892da3ee7602fce5f9407b94b22948ffc99c9d1d2ac0de9ca9ca5712502c9f68957fb832d85e16790e184ea2379d3ef78f2d109d2efdca880035d3139de9ea07b0ff416277c3563d5a85346b5197a23cbd7ed3119d4075ea47471e6b724fc707faafa4811ce8962f32e4a33623c43fe95e88c3456a9ff8cc1d54b5e29b65cb7200184247cd2d2bb1192966a34f5326115b734dfee7be3c6a1294a152028ccbe47f18364fee57dea5355f61acd4d5a4c482e3d05e6510299778341ae7fcad9e5ae9a092159bf933adc12e83c398f890bc7241012611ff30dfaf4295aca18af364c685ff40ab3072cbb74ea41efcacbfbd98c38f642065303a87b0383ca24ae026e1baea4658868ba7d0b6f104d518599a98943cfbf8abebc4d3669cabfa002ae1d917f54a8531b08eea2a5e3b7d448b23d339534faa4008de5b3f6314fb4333e86ff847c8d5588fa7904d3c3a4b8b8e0abe72579c8c5399d29a04e13bc94269d774e19e9a346f61a600776dcabca3c7d97ad2e9eb19ef7fa63c9de7be9c68a721b640289147140d5740878dc6d531aa2260c082588e172bf46dc8bbaf8df25fbc9c83fc98579396df8e358a3753e5c4bcbfeac69b774cf631a3c9d9b37e9f7326e8929ef305aad4f70410959454d2ba8280c277a375db81c0715302e1d69dacd5b58e81bc42310e88902ca850203010001a321301f301d0603551d0e041604149cc0b2ae2dce5bd9356952c15c668669663f1ad2300d06092a864886f70d01010b05000382020100624699bb31b9bb69b2bb4a0cd937e6fac3778c5c16f331f0b0bdb56c9c3ffcd9a6cc7581b6e60b90e23a723ce2ff969bad700f9991bf2780cf2df9f319603736c0d4995c32db88e8221f1506bec798c8b17fb107c12a7ef7a155b68c2092aa54761ba99c211387348b8142df588745d0faeb2891bec6216c55d6bae3b44d6ac9e828c25074be606f5950dfd4e4982ba66920abd1daf2163f986842f8a748bbb12a0592dd41b9ba5f64d9603ce47eeee58128d54768f51693d76944965ffa6da0098613530e141d5300f503e46d9ae83711deb3bf042cc1c2501a2e399e50c7a41a1cd3940a535a407aaa480374c1fd433d32f5e06dcddd1d9cc3d67c4f5b89e486f492d2c4456d0206cb17514455eab124f5f47cf8c42abd876ead4edec1e4a81eb2d39b73c28da7ee784a9548454b35b1a16baf446ad97e3b5ee25e13c96dfe82586ec53b17fd6f522eafe27c1c965b3a21590ea6eb16c02c6a44bf823727da03b0cff57a372824b7dd8b644e1413ee846029c2282ed412d3efd2478d1cd3cb18f10e9a387a653504ff59e275bd1407e3a017ab7ac780271b5e374cc51d2adf6691f83ceec82fa4f075481712dbc6aa85c40d5d8bae861d6cc74cc239debd9a5c59f15bd78041523782838d0372ce00b8ed772fcd124023f1644f442bbb5d0457a53fe3090d76c0833b053430e42e1cacec2866a3e364abd9b4584e9145e0e5" timestamp="1786681873" url="https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo" version="20002">
-		<description>A repo that contains all apps by xarantolus.</description>
+	<repo icon="icon.png" name="CloudStream F-Droid repo" pubkey="3082059e30820386a003020102020900a1151a9880d2aec8300d06092a864886f70d01010c0500307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f3020170d3236303831343130303730365a180f32303533313233303130303730365a307c310b30090603550406130249543110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b436c6f756453747265616d3110300e060355040b1307462d44726f69643121301f06035504031318436c6f756453747265616d20462d44726f6964205265706f30820222300d06092a864886f70d01010105000382020f003082020a0282020100bb629e7e9647152184afed5da6d4c28693ca1a02fcf08acca2c2657b20e0ba96afc931800889c9ba76fb9c0748e56c60973406beec39f7d192e4352c9de81b6f5a7f19594b307443efc528797b1cb7e8075617d74e4a73f53f99e5b21c8d6c9840ba35d068c6fe8e5c4152b23633a2ad41baf7529f7e603cb5441b0ee53cd3d41cc92e83b216a7dd958b38f7336966ac7f000707d118ecb10a15f3dbfab53f653d35bc119ee1541f7b3746dc3dd6bfd50e4b431a0bcec883d328fc1f8378d0d0509a8841ffcf8d50427627287f23f17b36d6323d4f83bc50c92f6dea42b14bb6636c3b5b60475b02e1a4a763fb2ab31180baaecfcf788905218736a7e533365475cf62564a487302f44d4c39442f3d97ec2ca547f054d1860883d4654934666e8fcd6aac408000817416dfacce979e6a7c1bc1db18502aefe8a0d5f1cf8bab5811f4184bb92cb8d0793f38912a8a4f77251142268dd6b062b8ce6c46028f5ef8049759f97dee3dae9001a645b059cbb34fd1b5eafcf2e26ce034d58687c71abed22c8d0efdee3573e5bca65db743b5d637d8784434c8fd57ae7e2e0387af115d0b06341cf315188fa36dff5e2551c32cf2dabab05b677f3b651825a76a0a92b0b3f9561a933e211d71f8723ea3d64a47073e921dfb727a745f2f880698bbca8689327f209d8307e13c3444ab1095c489b87fdebe62494817419cd384b4765bb30203010001a321301f301d0603551d0e041604148d8824b997e87daee63c865283c85f8587de875a300d06092a864886f70d01010c050003820201008eea132fc971b9d890cc86601e5f7b3d0661a2cfb335e9443a6f411c7f951c75b013430ed015a9879980d20328896432712838f24c5e8c70fda960256cca5eeb1ae3d8f613128b95fa7d4a480d2dc95d060aa8fcc925763f81fed400593bbd0f3f53db8f7636ff35d769d0d06d7e3172761d6c683f195f7245d2e1d0828b11ee1e5d3e98d486dbd74e86eb8a09090b4ff9b1cb150cd1f5fc2906daa150b1d38067a5218aad63c905c4f06d91fe7ddbc17455058d518d004186728e9c6b5a5d6c11df50b8d72b0ef5fe988edddba20fed74ef09bb444b01d305fbc74979f5559553cb0395f38d14353497546f8af84fd2439ba2b3556807110bd43dc70edefa062ee02d3eb0c53be1a53665aa48781c43d6bd5a667732902c154cc00d82aa52630bbcaae0048140f4685832f6dc2bcac1ec04fb8310242771f7df32f08c986b6b0246d293a81933950c9f9773c08c1aa4e8ae528e0c019cd509d2bba31db89178f935e5dc7954ebdcc831dbc52530b95faecf06788973f1245ea59f389aeaae46e953812b1c08b29d95608e063f019636d36c0f53655ee9d07cef77495d2e41258837e3f5479efa2ee949c7aec7171fc6043eb4be94f495abf40818076d5e652549f9d2dbfaa70dacb514d33e689759ce68e4f1ce940dde11ccf346bfab73fa8deda880bb3f4536a45900bbb83b5032eb66ce31fdbfd42f026e9b1d7ee5f03d14" timestamp="1786708146" url="https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo" version="20002">
+		<description>F-Droid repository hosting the CloudStream app: stable and pre-release builds.
+</description>
 	</repo>
-	<application id="io.github.xarantolus.notality">
-		<id>io.github.xarantolus.notality</id>
-		<added>2026-05-05</added>
-		<lastupdated>2026-05-05</lastupdated>
-		<name>Notality</name>
-		<summary>A very simple note taking app for Android</summary>
-		<icon>io.github.xarantolus.notality.10.png</icon>
-		<desc>Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.
+	<application id="com.lagradost.cloudstream3">
+		<id>com.lagradost.cloudstream3</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-14</lastupdated>
+		<name>CloudStream</name>
+		<summary>Android app for streaming and downloading media.</summary>
+		<desc>CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.
 
 &lt;b&gt;Features&lt;/b&gt;
 
-- Create, edit, delete and reorder notes
-- Automatic dark/light mode depending on the system-wide setting
-- Import/Export your notes to save them externally
-- Localization for English and German
+- AdFree, no ads whatsoever
+- No tracking/analytics
+- Bookmarks
+- Download and stream movies, tv-shows and anime
+- Chromecast
 </desc>
-		<license>MIT</license>
-		<categories>Writing</categories>
-		<category>Writing</category>
+		<license>GPL-3.0</license>
+		<categories>Multimedia,Internet</categories>
+		<category>Multimedia</category>
 		<web></web>
-		<source>https://github.com/xarantolus/notality</source>
+		<source>https://github.com/recloudstream/cloudstream</source>
 		<tracker></tracker>
-		<author>xarantolus</author>
-		<marketversion>1.8.1</marketversion>
-		<marketvercode>10</marketvercode>
+		<author>recloudstream</author>
+		<marketversion>4.8.0</marketversion>
+		<marketvercode>68</marketvercode>
 		<package>
-			<version>1.8.1</version>
-			<versioncode>10</versioncode>
-			<apkname>notality_v1.8.1.apk</apkname>
-			<hash type="sha256">a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010</hash>
-			<size>19970355</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.7.0</version>
+			<versioncode>68</versioncode>
+			<apkname>cloudstream_v4.7.0.apk</apkname>
+			<hash type="sha256">3fdbde37d50fea40f708fb6ca3051ac3e6d3751ead279813e38a3805dc0c6529</hash>
+			<size>70477907</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.8.0</version>
-			<versioncode>9</versioncode>
-			<apkname>notality_v1.8.0.apk</apkname>
-			<hash type="sha256">9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2</hash>
-			<size>19941818</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.6.0</version>
+			<versioncode>67</versioncode>
+			<apkname>cloudstream_v4.6.0.apk</apkname>
+			<hash type="sha256">9ca8acb601494a2735179206407ebb93de4d593b444894f454fe3237b6c209cb</hash>
+			<size>64803052</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.7.0</version>
-			<versioncode>8</versioncode>
-			<apkname>notality_v1.7.0.apk</apkname>
-			<hash type="sha256">7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b</hash>
-			<size>19940101</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.5.2</version>
+			<versioncode>66</versioncode>
+			<apkname>cloudstream_v4.5.2.apk</apkname>
+			<hash type="sha256">4dafa72d5b887dfbeda23f1039bd24f4506da0bf79ee98418058d22c7d4e8a7e</hash>
+			<size>63591651</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.6.1</version>
-			<versioncode>7</versioncode>
-			<apkname>notality_v1.6.1.apk</apkname>
-			<hash type="sha256">4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148</hash>
-			<size>19940607</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.4.0</version>
+			<versioncode>64</versioncode>
+			<apkname>cloudstream_v4.4.0.apk</apkname>
+			<hash type="sha256">e887d372bb93fb5d684915b126cab5438536964b34c2c4b96293a843eeca60ad</hash>
+			<size>30230090</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.6.0</version>
-			<versioncode>6</versioncode>
-			<apkname>notality_v1.6.0.apk</apkname>
-			<hash type="sha256">40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102</hash>
-			<size>19941052</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.3.0</version>
+			<versioncode>63</versioncode>
+			<apkname>cloudstream_v4.3.0.apk</apkname>
+			<hash type="sha256">dafd67ab9ae0f05e6c245018fa8d50c23ae429d56a259bcdfc5e57561bed6695</hash>
+			<size>29272738</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.5.0</version>
-			<versioncode>5</versioncode>
-			<apkname>notality_v1.5.0.apk</apkname>
-			<hash type="sha256">38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8</hash>
-			<size>19773651</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.2.0</version>
+			<versioncode>62</versioncode>
+			<apkname>cloudstream_v4.2.0.apk</apkname>
+			<hash type="sha256">88c858193788d8a47bce2e418eddc6b021fdfd8bbfe577d19fb08b89d313e856</hash>
+			<size>28528758</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.4.3</version>
-			<versioncode>4</versioncode>
-			<apkname>notality_v1.4.3.apk</apkname>
-			<hash type="sha256">321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422</hash>
-			<size>19774565</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.1.10</version>
+			<versioncode>61</versioncode>
+			<apkname>cloudstream_v4.1.10.apk</apkname>
+			<hash type="sha256">a81211eb9142cf0335eac9e0f90f3b3f733b5ef1c2cc91c47848efefdec16378</hash>
+			<size>28528182</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.4.2</version>
-			<versioncode>3</versioncode>
-			<apkname>notality_v1.4.2.apk</apkname>
-			<hash type="sha256">408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159</hash>
-			<size>19775200</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.1.9</version>
+			<versioncode>60</versioncode>
+			<apkname>cloudstream_v4.1.9.apk</apkname>
+			<hash type="sha256">9f8da809f0196ed55d1a712aab57be03444311513ba853063f40464744e2c571</hash>
+			<size>28524657</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.4.1</version>
-			<versioncode>2</versioncode>
-			<apkname>notality_v1.4.1.apk</apkname>
-			<hash type="sha256">30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934</hash>
-			<size>19775056</size>
-			<sdkver>19</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.0.1</version>
+			<versioncode>59</versioncode>
+			<apkname>cloudstream_v4.0.1.apk</apkname>
+			<hash type="sha256">e6f24b56bf56b31a642e5ab9881461bb0a442282789be15aa5992fcd156cb7db</hash>
+			<size>24435588</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 		<package>
-			<version>1.0.0</version>
-			<versioncode>1</versioncode>
-			<apkname>notality_v1.0.0.apk</apkname>
-			<hash type="sha256">ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b</hash>
-			<size>18672232</size>
-			<sdkver>16</sdkver>
+			<version>3.2.4</version>
+			<versioncode>56</versioncode>
+			<apkname>cloudstream_v3.2.4.apk</apkname>
+			<hash type="sha256">f3c2df801cb1c2f7936794252240cd55bd2f1b866330e7c69105605b52df861a</hash>
+			<size>20349357</size>
+			<sdkver>21</sdkver>
 			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA</permissions>
+		</package>
+		<package>
+			<version>3.2.1</version>
+			<versioncode>54</versioncode>
+			<apkname>cloudstream_v3.2.1.apk</apkname>
+			<hash type="sha256">ffb4aaa011a92e56803efc586fb5af6981f47179b37f833eb4b82c15dab56718</hash>
+			<size>20331966</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>a084adc2b0d2548cc70da68ccf2e8c30</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REORDER_TASKS,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA</permissions>
 		</package>
 	</application>
-	<application id="io.github.xarantolus.rockit">
-		<id>io.github.xarantolus.rockit</id>
-		<added>2026-05-05</added>
-		<lastupdated>2026-05-05</lastupdated>
-		<name>Rock It!</name>
-		<summary>Rock It! is an Android app that helps you stay informed on all things space</summary>
-		<desc>Rock It! helps you stay informed on all things space.
-It displays upcoming rocket launches and current space news curated by &lt;a href=&quot;https://thespacedevs.com/&quot;&gt;The Space Devs&lt;/a&gt;.
+	<application id="com.lagradost.cloudstream3.prerelease">
+		<id>com.lagradost.cloudstream3.prerelease</id>
+		<added>2026-08-14</added>
+		<lastupdated>2026-08-14</lastupdated>
+		<name>CloudStream (Pre-release)</name>
+		<summary>Android app for streaming and downloading Movies, TV-Series and Anime. (Prerelease)</summary>
+		<desc>CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.
+This application is the automatically generated preview build and may not be as stable as the releases.
 
-&lt;b&gt;Features&lt;/b&gt;
+FEATURES:
 
-- List upcoming launches and events (e.g. space station activity)
-- Show launch/event details and a countdown (including the date and time in your local timezone)
-- List latest space news articles
-- Subscribe to launches or events to receive notifications before the start or when times are updated
-- Search future events and launches
-- No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet
-
-The app connects to the Launch Library and Spaceflight News API to get information about launches.
-Additionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails.
-Since none of these services are free software, it's labeled with &quot;NonFreeNet&quot;.
-</desc>
+* AdFree, No ads whatsoever
+* No tracking/analytics
+* Bookmarks
+* Download and stream movies, tv-shows and anime
+* Chromecast</desc>
 		<license>MIT</license>
-		<categories>Internet,Science &amp; Education</categories>
-		<category>Internet</category>
-		<web></web>
-		<source>https://github.com/xarantolus/rockit</source>
-		<tracker></tracker>
-		<author>xarantolus</author>
-		<marketversion>1.6.0</marketversion>
-		<marketvercode>23</marketvercode>
-		<antifeatures>NonFreeNet</antifeatures>
+		<categories>Multimedia,Internet</categories>
+		<category>Multimedia</category>
+		<web>https://cloudstream.miraheze.org/wiki/Main_Page</web>
+		<source>https://github.com/recloudstream/cloudstream</source>
+		<tracker>https://github.com/recloudstream/cloudstream/issues</tracker>
+		<changelog>https://github.com/recloudstream/cloudstream/releases</changelog>
+		<author>LagradOst</author>
+		<marketversion></marketversion>
+		<marketvercode>29758503</marketvercode>
 		<package>
-			<version>1.6.0</version>
-			<versioncode>23</versioncode>
-			<apkname>rockit_v1.6.0.apk</apkname>
-			<hash type="sha256">59f7d5f7748088ae286fbc21266234ffe3a4557c994e5dfdf24a8ab5db6975a5</hash>
-			<size>24464129</size>
-			<sdkver>21</sdkver>
-			<targetSdkVersion>34</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,VIBRATE,WAKE_LOCK,io.github.xarantolus.rockit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.5.0</version>
-			<versioncode>22</versioncode>
-			<apkname>rockit_v1.5.0.apk</apkname>
-			<hash type="sha256">3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb</hash>
-			<size>22127966</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.4.0</version>
-			<versioncode>21</versioncode>
-			<apkname>rockit_v1.4.0.apk</apkname>
-			<hash type="sha256">33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba</hash>
-			<size>21008745</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.3.4</version>
-			<versioncode>20</versioncode>
-			<apkname>rockit_v1.3.4.apk</apkname>
-			<hash type="sha256">4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a</hash>
-			<size>20941813</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.3.3</version>
-			<versioncode>19</versioncode>
-			<apkname>rockit_v1.3.3.apk</apkname>
-			<hash type="sha256">871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892</hash>
-			<size>20911143</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.3.2</version>
-			<versioncode>18</versioncode>
-			<apkname>rockit_v1.3.2.apk</apkname>
-			<hash type="sha256">ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9</hash>
-			<size>20923848</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.3.1</version>
-			<versioncode>17</versioncode>
-			<apkname>rockit_v1.3.1.apk</apkname>
-			<hash type="sha256">edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00</hash>
-			<size>20918211</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.3.0</version>
-			<versioncode>16</versioncode>
-			<apkname>rockit_v1.3.0.apk</apkname>
-			<hash type="sha256">f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea</hash>
-			<size>20369681</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.2.0</version>
-			<versioncode>15</versioncode>
-			<apkname>rockit_v1.2.0.apk</apkname>
-			<hash type="sha256">ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3</hash>
-			<size>20369375</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.1.0</version>
-			<versioncode>14</versioncode>
-			<apkname>rockit_v1.1.0.apk</apkname>
-			<hash type="sha256">496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a</hash>
-			<size>20364274</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>1.0.0</version>
-			<versioncode>13</versioncode>
-			<apkname>rockit_v1.0.0.apk</apkname>
-			<hash type="sha256">35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589</hash>
-			<size>20455227</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.8.0</version>
-			<versioncode>12</versioncode>
-			<apkname>rockit_v0.8.0.apk</apkname>
-			<hash type="sha256">ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe</hash>
-			<size>20426621</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.7.1</version>
-			<versioncode>11</versioncode>
-			<apkname>rockit_v0.7.1.apk</apkname>
-			<hash type="sha256">6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0</hash>
-			<size>20406845</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.6.0</version>
-			<versioncode>9</versioncode>
-			<apkname>rockit_v0.6.0.apk</apkname>
-			<hash type="sha256">a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd</hash>
-			<size>20397808</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.5.0</version>
-			<versioncode>8</versioncode>
-			<apkname>rockit_v0.5.0.apk</apkname>
-			<hash type="sha256">98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf</hash>
-			<size>20380432</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,RECEIVE_BOOT_COMPLETED,SCHEDULE_EXACT_ALARM,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.4.0</version>
-			<versioncode>7</versioncode>
-			<apkname>rockit_v0.4.0.apk</apkname>
-			<hash type="sha256">8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4</hash>
-			<size>19333913</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.3.0</version>
-			<versioncode>6</versioncode>
-			<apkname>rockit_v0.3.0.apk</apkname>
-			<hash type="sha256">adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b</hash>
-			<size>19251106</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.2.1</version>
-			<versioncode>4</versioncode>
-			<apkname>rockit_v0.2.1.apk</apkname>
-			<hash type="sha256">6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805</hash>
-			<size>19227280</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.2.0</version>
-			<versioncode>3</versioncode>
-			<apkname>rockit_v0.2.0.apk</apkname>
-			<hash type="sha256">adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf</hash>
-			<size>19219607</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.1.0</version>
-			<versioncode>2</versioncode>
-			<apkname>rockit_v0.1.0.apk</apkname>
-			<hash type="sha256">7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b</hash>
-			<size>19209715</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
-		</package>
-		<package>
-			<version>0.0.1</version>
-			<versioncode>1</versioncode>
-			<apkname>rockit_v0.0.1.apk</apkname>
-			<hash type="sha256">97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a</hash>
-			<size>19193714</size>
-			<sdkver>16</sdkver>
-			<targetSdkVersion>30</targetSdkVersion>
-			<added>2026-05-05</added>
-			<sig>3b6c475d25514f30dc14013a39dacf32</sig>
-			<permissions>INTERNET</permissions>
-			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<version>4.8.0-PRE</version>
+			<versioncode>29758503</versioncode>
+			<apkname>cloudstream-prerelease_pre-release.apk</apkname>
+			<hash type="sha256">3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf</hash>
+			<size>72149100</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-08-14</added>
+			<sig>9289624423ef62e7f6b2bcf17c387b74</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,INTERNET,MANAGE_EXTERNAL_STORAGE,MODIFY_AUDIO_SETTINGS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,UPDATE_PACKAGES_WITHOUT_USER_ACTION,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 	</application>
 </fdroid>

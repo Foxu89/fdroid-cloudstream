@@ -1,0 +1,8 @@
++ Added intro skip database
++ Added metadata overlay on TV
++ Added more external players
++ Fixed some security issues
++ Fixed some download issues
++ Updated filler database
++ Updated some UI/UX
++ Internal code changes

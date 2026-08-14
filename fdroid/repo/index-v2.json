@@ -1,34 +1,29 @@
 {
   "repo": {
     "name": {
-      "en-US": "Apps by xarantolus"
+      "en-US": "CloudStream F-Droid repo"
     },
     "description": {
-      "en-US": "A repo that contains all apps by xarantolus."
+      "en-US": "F-Droid repository hosting the CloudStream app: stable and pre-release builds.\n"
     },
     "icon": {
       "en-US": {
         "name": "/icons/icon.png",
-        "sha256": "67e1ca0b4c61f5fd3d598c7f0541e4c9062f338805f469c545277a3743f74edb",
-        "size": 998
+        "sha256": "7b4f439ffbac8280b8d57a1ef4bb8a105f0124e6c8f52d4fd0091ad338ae0164",
+        "size": 1010
       }
     },
-    "address": "https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo",
-    "timestamp": 1786681873000,
+    "address": "https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo",
+    "timestamp": 1786708146000,
     "categories": {
       "Internet": {
         "name": {
           "en-US": "Internet"
         }
       },
-      "Science & Education": {
+      "Multimedia": {
         "name": {
-          "en-US": "Science & Education"
-        }
-      },
-      "Writing": {
-        "name": {
-          "en-US": "Writing"
+          "en-US": "Multimedia"
         }
       },
       "fdroid": {
@@ -65,1572 +60,1285 @@
         }
       }
     },
-    "io.github.xarantolus.notality": {
+    "com.lagradost.cloudstream3": {
       "metadata": {
-        "added": 1777953455000,
+        "added": 1786708117000,
         "categories": [
-          "Writing"
+          "Multimedia",
+          "Internet"
         ],
-        "lastUpdated": 1777953462000,
-        "license": "MIT",
-        "sourceCode": "https://github.com/xarantolus/notality",
-        "screenshots": {
-          "phone": {
-            "en-US": [
-              {
-                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/1.png",
-                "sha256": "52a423e0ca901b2a55975e96f49a950d113dcaf3e2b9ab5b9cd7327ed5b40769",
-                "size": 65822
-              },
-              {
-                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/2.png",
-                "sha256": "c256538cfef846f7b32cfef746cf9aa15c06badcd52ccb57ea56e78e558f5686",
-                "size": 109724
-              },
-              {
-                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/3.png",
-                "sha256": "35e5c85b52c43e7a4bf4632b649636c2bafa2bb5896c7fabfb8a3276955bc19c",
-                "size": 65975
-              },
-              {
-                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/4.png",
-                "sha256": "c4126cd8d8f758127df962db7b6688789a043bd208dc3e94f38a780ddddc0418",
-                "size": 110866
-              }
-            ]
-          }
-        },
-        "authorName": "xarantolus",
+        "lastUpdated": 1786708139000,
+        "license": "GPL-3.0",
+        "sourceCode": "https://github.com/recloudstream/cloudstream",
+        "authorName": "recloudstream",
         "name": {
-          "en-US": "Notality"
+          "en-US": "CloudStream"
         },
         "summary": {
-          "en-US": "A very simple note taking app for Android"
+          "en-US": "Android app for streaming and downloading media."
         },
         "description": {
-          "en-US": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n"
+          "en-US": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\n\n<b>Features</b>\n\n- AdFree, no ads whatsoever\n- No tracking/analytics\n- Bookmarks\n- Download and stream movies, tv-shows and anime\n- Chromecast\n"
         },
-        "icon": {
-          "en-US": {
-            "name": "/icons/io.github.xarantolus.notality.10.png",
-            "sha256": "57d2f45ddf7f683082a7d8cc42c172f3a0730eacdc6a30f64e925209db2addff",
-            "size": 1125
-          }
-        },
-        "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+        "preferredSigner": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
       },
       "versions": {
-        "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010": {
-          "added": 1777953462000,
+        "3fdbde37d50fea40f708fb6ca3051ac3e6d3751ead279813e38a3805dc0c6529": {
+          "added": 1786708137000,
           "file": {
-            "name": "/notality_v1.8.1.apk",
-            "sha256": "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010",
-            "size": 19970355
+            "name": "/cloudstream_v4.7.0.apk",
+            "sha256": "3fdbde37d50fea40f708fb6ca3051ac3e6d3751ead279813e38a3805dc0c6529",
+            "size": 70477907
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.8.1",
-            "versionCode": 10,
+            "versionName": "4.7.0",
+            "versionCode": 68,
             "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2": {
-          "added": 1777953462000,
-          "file": {
-            "name": "/notality_v1.8.0.apk",
-            "sha256": "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2",
-            "size": 19941818
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.8.0",
-            "versionCode": 9,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b": {
-          "added": 1777953461000,
-          "file": {
-            "name": "/notality_v1.7.0.apk",
-            "sha256": "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b",
-            "size": 19940101
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.7.0",
-            "versionCode": 8,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148": {
-          "added": 1777953461000,
-          "file": {
-            "name": "/notality_v1.6.1.apk",
-            "sha256": "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148",
-            "size": 19940607
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.6.1",
-            "versionCode": 7,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102": {
-          "added": 1777953460000,
-          "file": {
-            "name": "/notality_v1.6.0.apk",
-            "sha256": "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102",
-            "size": 19941052
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.6.0",
-            "versionCode": 6,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8": {
-          "added": 1777953460000,
-          "file": {
-            "name": "/notality_v1.5.0.apk",
-            "sha256": "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8",
-            "size": 19773651
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.5.0",
-            "versionCode": 5,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422": {
-          "added": 1777953459000,
-          "file": {
-            "name": "/notality_v1.4.3.apk",
-            "sha256": "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422",
-            "size": 19774565
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.4.3",
-            "versionCode": 4,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159": {
-          "added": 1777953459000,
-          "file": {
-            "name": "/notality_v1.4.2.apk",
-            "sha256": "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159",
-            "size": 19775200
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.4.2",
-            "versionCode": 3,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934": {
-          "added": 1777953458000,
-          "file": {
-            "name": "/notality_v1.4.1.apk",
-            "sha256": "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934",
-            "size": 19775056
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.4.1",
-            "versionCode": 2,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b": {
-          "added": 1777953455000,
-          "file": {
-            "name": "/notality_v1.0.0.apk",
-            "sha256": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
-            "size": 18672232
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f": {
-          "added": 1777953455000,
-          "file": {
-            "name": "/notality_v1.0.1.apk",
-            "sha256": "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f",
-            "size": 18678190
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.0.1",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5": {
-          "added": 1777953456000,
-          "file": {
-            "name": "/notality_v1.1.0.apk",
-            "sha256": "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5",
-            "size": 18777264
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.1.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6": {
-          "added": 1777953456000,
-          "file": {
-            "name": "/notality_v1.2.0.apk",
-            "sha256": "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6",
-            "size": 19540674
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.2.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871": {
-          "added": 1777953457000,
-          "file": {
-            "name": "/notality_v1.3.0.apk",
-            "sha256": "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871",
-            "size": 19657134
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.3.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        },
-        "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d": {
-          "added": 1777953457000,
-          "file": {
-            "name": "/notality_v1.4.0.apk",
-            "sha256": "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d",
-            "size": 19775057
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.4.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 19,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "io.github.xarantolus.rockit": {
-      "metadata": {
-        "added": 1777953463000,
-        "categories": [
-          "Internet",
-          "Science & Education"
-        ],
-        "lastUpdated": 1777953474000,
-        "license": "MIT",
-        "sourceCode": "https://github.com/xarantolus/rockit",
-        "screenshots": {
-          "phone": {
-            "en-US": [
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/1.jpg",
-                "sha256": "bfaa45d80c5177a5be753e996639c7e8055fc45f2273c0b157ab2b6bf1303fb7",
-                "size": 192242
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/10.jpg",
-                "sha256": "20474dee8e0fe5be9b326c03cb749e6cda3379d1614a6a1d976655def28e2f9c",
-                "size": 229625
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/11.jpg",
-                "sha256": "8b19a48166d727d51705c9cbbd247296d54301fb2891dc45669875412f93fa0f",
-                "size": 255718
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/12.jpg",
-                "sha256": "ead3d09a5d44074c09553ca04a09a178a78a66384824408634afa8fe6c1629a0",
-                "size": 217755
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/2.jpg",
-                "sha256": "5a7908c084d62f35d6c0ed90c2243a9d51c95dade1e4c9134c83adbf014f56eb",
-                "size": 212724
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/3.jpg",
-                "sha256": "5fda46beb8e6e0c2d27611cfd44ab51a936ecac7d26a4bd7d2e2304df2574e9f",
-                "size": 185264
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/4.jpg",
-                "sha256": "cddb5913dc279f11c7f7ec474f27a8a67827af12dfd26cb6557706362790235c",
-                "size": 224816
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/5.jpg",
-                "sha256": "55fa063bccdb8dd4500fa011debaa25d1ae8473759def2fe23c7b2262317fde8",
-                "size": 261465
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/6.jpg",
-                "sha256": "5c4944e8d2479a8bec2b80aba0084ec69547f3320fc018f058c3a70c7a37390e",
-                "size": 211430
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/7.jpg",
-                "sha256": "515fbe3dc32ec832979629874fa41e64319c4ffb438b7052969459eb545627c3",
-                "size": 188489
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/8.jpg",
-                "sha256": "412b5d943b593240b18620471771eb29e22bdd10ffd4582962d956394a004081",
-                "size": 216926
-              },
-              {
-                "name": "/io.github.xarantolus.rockit/en-US/phoneScreenshots/9.jpg",
-                "sha256": "cbed32ec72b0373bc1ade08495e35a14c60a8a9f1a8b215b17513998f65c4a0a",
-                "size": 178810
-              }
-            ]
-          }
-        },
-        "authorName": "xarantolus",
-        "name": {
-          "en-US": "Rock It!"
-        },
-        "summary": {
-          "en-US": "Rock It! is an Android app that helps you stay informed on all things space"
-        },
-        "description": {
-          "en-US": "Rock It! helps you stay informed on all things space.\nIt displays upcoming rocket launches and current space news curated by <a href=\"https://thespacedevs.com/\">The Space Devs</a>.\n\n<b>Features</b>\n\n- List upcoming launches and events (e.g. space station activity)\n- Show launch/event details and a countdown (including the date and time in your local timezone)\n- List latest space news articles\n- Subscribe to launches or events to receive notifications before the start or when times are updated\n- Search future events and launches\n- No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet\n\nThe app connects to the Launch Library and Spaceflight News API to get information about launches.\nAdditionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails.\nSince none of these services are free software, it's labeled with \"NonFreeNet\".\n"
-        },
-        "preferredSigner": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-      },
-      "versions": {
-        "59f7d5f7748088ae286fbc21266234ffe3a4557c994e5dfdf24a8ab5db6975a5": {
-          "added": 1777953474000,
-          "file": {
-            "name": "/rockit_v1.6.0.apk",
-            "sha256": "59f7d5f7748088ae286fbc21266234ffe3a4557c994e5dfdf24a8ab5db6975a5",
-            "size": 24464129
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.6.0",
-            "versionCode": 23,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
                 "name": "android.permission.POST_NOTIFICATIONS"
               },
               {
-                "name": "android.permission.WAKE_LOCK"
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
               },
               {
                 "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
-                "name": "io.github.xarantolus.rockit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb": {
-          "added": 1777953473000,
-          "file": {
-            "name": "/rockit_v1.5.0.apk",
-            "sha256": "3e4398a041e11ccc0fe3d1684a36675a821705c6be0c10b56220ba19f44b7acb",
-            "size": 22127966
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.5.0",
-            "versionCode": 22,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
               },
               {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+                "name": "android.permission.USE_BIOMETRIC"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba": {
-          "added": 1777953473000,
-          "file": {
-            "name": "/rockit_v1.4.0.apk",
-            "sha256": "33867c58a05b19fb07074095e9c4fd59a066f37ec13c8f9648a12aa0edf03aba",
-            "size": 21008745
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.4.0",
-            "versionCode": 21,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
+                "name": "android.permission.USE_FINGERPRINT"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a": {
-          "added": 1777953472000,
+        "348c3f09551f2dda4fba25ba348928ee7b82a47ce98a6b1eae3295d4c127877c": {
+          "added": 1786708139000,
           "file": {
-            "name": "/rockit_v1.3.4.apk",
-            "sha256": "4ac68bb79a0eb2739a263166d40ac5c612a82e61eb180d07813e43dce778678a",
-            "size": 20941813
+            "name": "/cloudstream_v4.8.0.apk",
+            "sha256": "348c3f09551f2dda4fba25ba348928ee7b82a47ce98a6b1eae3295d4c127877c",
+            "size": 72089111
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.3.4",
-            "versionCode": 20,
+            "versionName": "4.8.0",
+            "versionCode": 68,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892": {
-          "added": 1777953471000,
+        "9ca8acb601494a2735179206407ebb93de4d593b444894f454fe3237b6c209cb": {
+          "added": 1786708134000,
           "file": {
-            "name": "/rockit_v1.3.3.apk",
-            "sha256": "871e49d2362b02ae6dbca7a66770ceece1e10568a94d0f730a656b9ecb040892",
-            "size": 20911143
+            "name": "/cloudstream_v4.6.0.apk",
+            "sha256": "9ca8acb601494a2735179206407ebb93de4d593b444894f454fe3237b6c209cb",
+            "size": 64803052
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.3.3",
-            "versionCode": 19,
+            "versionName": "4.6.0",
+            "versionCode": 67,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9": {
-          "added": 1777953471000,
+        "4dafa72d5b887dfbeda23f1039bd24f4506da0bf79ee98418058d22c7d4e8a7e": {
+          "added": 1786708130000,
           "file": {
-            "name": "/rockit_v1.3.2.apk",
-            "sha256": "ebc0050a4bd19212b462537c91087329024ecd0fe56a0b8b78086ea6e71119e9",
-            "size": 20923848
+            "name": "/cloudstream_v4.5.2.apk",
+            "sha256": "4dafa72d5b887dfbeda23f1039bd24f4506da0bf79ee98418058d22c7d4e8a7e",
+            "size": 63591651
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.3.2",
-            "versionCode": 18,
+            "versionName": "4.5.2",
+            "versionCode": 66,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00": {
-          "added": 1777953470000,
+        "b3c43a34240ea7ddd65358368bfd6876aa4bde164948a28378c280d66e4414aa": {
+          "added": 1786708132000,
           "file": {
-            "name": "/rockit_v1.3.1.apk",
-            "sha256": "edc66ead58e6af93f2d498506f1a6f52c33e442773e64c220925b02d4ad13b00",
-            "size": 20918211
+            "name": "/cloudstream_v4.5.4.apk",
+            "sha256": "b3c43a34240ea7ddd65358368bfd6876aa4bde164948a28378c280d66e4414aa",
+            "size": 63714921
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.3.1",
-            "versionCode": 17,
+            "versionName": "4.5.4",
+            "versionCode": 66,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea": {
-          "added": 1777953470000,
+        "e887d372bb93fb5d684915b126cab5438536964b34c2c4b96293a843eeca60ad": {
+          "added": 1786708128000,
           "file": {
-            "name": "/rockit_v1.3.0.apk",
-            "sha256": "f0786af8d11787f1620ba535e7c5d961ce2c0f5f199af177b3027ce57a1692ea",
-            "size": 20369681
+            "name": "/cloudstream_v4.4.0.apk",
+            "sha256": "e887d372bb93fb5d684915b126cab5438536964b34c2c4b96293a843eeca60ad",
+            "size": 30230090
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.3.0",
-            "versionCode": 16,
+            "versionName": "4.4.0",
+            "versionCode": 64,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3": {
-          "added": 1777953469000,
+        "dafd67ab9ae0f05e6c245018fa8d50c23ae429d56a259bcdfc5e57561bed6695": {
+          "added": 1786708126000,
           "file": {
-            "name": "/rockit_v1.2.0.apk",
-            "sha256": "ba0e48c913a138e8b99fe46aa2b8b39833d078c94e8d76b70e734926578205b3",
-            "size": 20369375
+            "name": "/cloudstream_v4.3.0.apk",
+            "sha256": "dafd67ab9ae0f05e6c245018fa8d50c23ae429d56a259bcdfc5e57561bed6695",
+            "size": 29272738
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.2.0",
-            "versionCode": 15,
+            "versionName": "4.3.0",
+            "versionCode": 63,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a": {
-          "added": 1777953469000,
+        "88c858193788d8a47bce2e418eddc6b021fdfd8bbfe577d19fb08b89d313e856": {
+          "added": 1786708125000,
           "file": {
-            "name": "/rockit_v1.1.0.apk",
-            "sha256": "496971c9fc5d6ebc58478ee10b85f245760a741282eb2d505ed3dd4d00993e9a",
-            "size": 20364274
+            "name": "/cloudstream_v4.2.0.apk",
+            "sha256": "88c858193788d8a47bce2e418eddc6b021fdfd8bbfe577d19fb08b89d313e856",
+            "size": 28528758
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.1.0",
-            "versionCode": 14,
+            "versionName": "4.2.0",
+            "versionCode": 62,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589": {
-          "added": 1777953468000,
+        "a81211eb9142cf0335eac9e0f90f3b3f733b5ef1c2cc91c47848efefdec16378": {
+          "added": 1786708122000,
           "file": {
-            "name": "/rockit_v1.0.0.apk",
-            "sha256": "35debc9d1ac17f9c8f41cf6ae6297ca9db26a1e7c4a2e7c668cd0d7d24d3f589",
-            "size": 20455227
+            "name": "/cloudstream_v4.1.10.apk",
+            "sha256": "a81211eb9142cf0335eac9e0f90f3b3f733b5ef1c2cc91c47848efefdec16378",
+            "size": 28528182
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.0.0",
-            "versionCode": 13,
+            "versionName": "4.1.10",
+            "versionCode": 61,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe": {
-          "added": 1777953468000,
+        "9f8da809f0196ed55d1a712aab57be03444311513ba853063f40464744e2c571": {
+          "added": 1786708123000,
           "file": {
-            "name": "/rockit_v0.8.0.apk",
-            "sha256": "ce683294036f352af0d6140ec51ced4354fa1478439a7233cd6b45764c9cccbe",
-            "size": 20426621
+            "name": "/cloudstream_v4.1.9.apk",
+            "sha256": "9f8da809f0196ed55d1a712aab57be03444311513ba853063f40464744e2c571",
+            "size": 28524657
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "0.8.0",
-            "versionCode": 12,
+            "versionName": "4.1.9",
+            "versionCode": 60,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "com.lagradost.cloudstream3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0": {
-          "added": 1777953467000,
+        "e6f24b56bf56b31a642e5ab9881461bb0a442282789be15aa5992fcd156cb7db": {
+          "added": 1786708120000,
           "file": {
-            "name": "/rockit_v0.7.1.apk",
-            "sha256": "6f724f9687164a595c72659224ff3960bc02a4923087cf1dfd20a2e6d6556cc0",
-            "size": 20406845
+            "name": "/cloudstream_v4.0.1.apk",
+            "sha256": "e6f24b56bf56b31a642e5ab9881461bb0a442282789be15aa5992fcd156cb7db",
+            "size": 24435588
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "0.7.1",
-            "versionCode": 11,
+            "versionName": "4.0.1",
+            "versionCode": 59,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd": {
-          "added": 1777953466000,
+        "f3c2df801cb1c2f7936794252240cd55bd2f1b866330e7c69105605b52df861a": {
+          "added": 1786708118000,
           "file": {
-            "name": "/rockit_v0.6.0.apk",
-            "sha256": "a42e3d5b92b16e3e5fccd7f8ff138d540c077670185d4332225c1a14d1188dbd",
-            "size": 20397808
+            "name": "/cloudstream_v3.2.4.apk",
+            "sha256": "f3c2df801cb1c2f7936794252240cd55bd2f1b866330e7c69105605b52df861a",
+            "size": 20349357
           },
           "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.6.0",
-            "versionCode": 9,
+            "versionName": "3.2.4",
+            "versionCode": 56,
             "usesSdk": {
-              "minSdkVersion": 16,
+              "minSdkVersion": 21,
               "targetSdkVersion": 30
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
               },
               {
-                "name": "android.permission.FOREGROUND_SERVICE"
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         },
-        "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf": {
-          "added": 1777953466000,
+        "2c3ab64638d847856210a1cff8d555c7334ba22e4cdf74a763abb35cee5bc055": {
+          "added": 1786708119000,
           "file": {
-            "name": "/rockit_v0.5.0.apk",
-            "sha256": "98993a98a0d33c7bfc6fcf3591fe429b3e1defb04e76818f0aeb1b9924d986cf",
-            "size": 20380432
+            "name": "/cloudstream_v3.5.0.apk",
+            "sha256": "2c3ab64638d847856210a1cff8d555c7334ba22e4cdf74a763abb35cee5bc055",
+            "size": 24085960
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "0.5.0",
-            "versionCode": 8,
+            "versionName": "3.5.0",
+            "versionCode": 56,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
               ]
             },
             "usesPermission": [
               {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
                 "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
               {
-                "name": "android.permission.VIBRATE"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
               },
               {
-                "name": "android.permission.USE_FULL_SCREEN_INTENT"
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
               },
               {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
                 "name": "android.permission.WAKE_LOCK"
               },
               {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              }
+            ]
+          }
+        },
+        "ffb4aaa011a92e56803efc586fb5af6981f47179b37f833eb4b82c15dab56718": {
+          "added": 1786708117000,
+          "file": {
+            "name": "/cloudstream_v3.2.1.apk",
+            "sha256": "ffb4aaa011a92e56803efc586fb5af6981f47179b37f833eb4b82c15dab56718",
+            "size": 20331966
+          },
+          "manifest": {
+            "versionName": "3.2.1",
+            "versionCode": 54,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7"
+              ]
+            },
+            "usesPermission": [
+              {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
                 "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
+        }
+      }
+    },
+    "com.lagradost.cloudstream3.prerelease": {
+      "metadata": {
+        "added": 1786708116000,
+        "categories": [
+          "Multimedia",
+          "Internet"
+        ],
+        "changelog": "https://github.com/recloudstream/cloudstream/releases",
+        "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
+        "lastUpdated": 1786708116000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/recloudstream/cloudstream",
+        "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
+        "authorName": "LagradOst",
+        "name": {
+          "en-US": "CloudStream (Pre-release)"
         },
-        "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4": {
-          "added": 1777953465000,
+        "summary": {
+          "en-US": "Android app for streaming and downloading Movies, TV-Series and Anime. (Prerelease)"
+        },
+        "description": {
+          "en-US": "CloudStream 3 is an Android app for streaming and downloading Movies, TV-Series and Anime.\nThis application is the automatically generated preview build and may not be as stable as the releases.\n\nFEATURES:\n\n* AdFree, No ads whatsoever\n* No tracking/analytics\n* Bookmarks\n* Download and stream movies, tv-shows and anime\n* Chromecast"
+        },
+        "preferredSigner": "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
+      },
+      "versions": {
+        "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf": {
+          "added": 1786708116000,
           "file": {
-            "name": "/rockit_v0.4.0.apk",
-            "sha256": "8db540af4776df573bace68f584c11286377e6cf9c78db059b240661408db8f4",
-            "size": 19333913
+            "name": "/cloudstream-prerelease_pre-release.apk",
+            "sha256": "3edee5eaf6b690353c929a9f76cc04d95315ab6a8f80f49fced04aff1ec446cf",
+            "size": 72149100
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "0.4.0",
-            "versionCode": 7,
+            "versionName": "4.8.0-PRE",
+            "versionCode": 29758503,
             "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
             },
             "signer": {
               "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
+                "c2755b1fbc6cefa6aa20739f527d09246525618a7e16edb2e2171c2c9de70c72"
               ]
             },
             "usesPermission": [
               {
-                "name": "android.permission.INTERNET"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b": {
-          "added": 1777953465000,
-          "file": {
-            "name": "/rockit_v0.3.0.apk",
-            "sha256": "adcbb0bc0f8baf30610a8880f0e7f35d0604b11f4e1c70581bdd12528db2283b",
-            "size": 19251106
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.3.0",
-            "versionCode": 6,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
               {
                 "name": "android.permission.INTERNET"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805": {
-          "added": 1777953464000,
-          "file": {
-            "name": "/rockit_v0.2.1.apk",
-            "sha256": "6c689e2f8565005a38edba5a34418ff3a3f1189743c2a378b4adb20352cda805",
-            "size": 19227280
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.2.1",
-            "versionCode": 4,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
+              },
               {
-                "name": "android.permission.INTERNET"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf": {
-          "added": 1777953464000,
-          "file": {
-            "name": "/rockit_v0.2.0.apk",
-            "sha256": "adc95cfd4983231083e8118b2bc9149712f7f9c844281426b1108c0575112adf",
-            "size": 19219607
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.2.0",
-            "versionCode": 3,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
               {
-                "name": "android.permission.INTERNET"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b": {
-          "added": 1777953463000,
-          "file": {
-            "name": "/rockit_v0.1.0.apk",
-            "sha256": "7022ad0d02e05da6915b6ab51a81b9c82118ce6862b9b90f6dadbe152ff13c6b",
-            "size": 19209715
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.1.0",
-            "versionCode": 2,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
               {
-                "name": "android.permission.INTERNET"
-              }
-            ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
-          }
-        },
-        "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a": {
-          "added": 1777953463000,
-          "file": {
-            "name": "/rockit_v0.0.1.apk",
-            "sha256": "97bf39c135daa186c0d38465d2d2ac1174d2da3fcbbf41e592024315cf55c19a",
-            "size": 19193714
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "0.0.1",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 16,
-              "targetSdkVersion": 30
-            },
-            "signer": {
-              "sha256": [
-                "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6"
-              ]
-            },
-            "usesPermission": [
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
               {
-                "name": "android.permission.INTERNET"
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.lagradost.cloudstream3.prerelease.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          },
-          "antiFeatures": {
-            "NonFreeNet": {}
           }
         }
       }
