@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786728997000,
+    "timestamp": 1786732981000,
     "version": 20002,
     "name": "CloudStream F-Droid repo",
     "icon": "icon.png",
@@ -25,6 +25,7 @@
       "name": "CloudStream",
       "sourceCode": "https://github.com/recloudstream/cloudstream",
       "summary": "Open-source Android application for streaming and downloading media.",
+      "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
       "added": 1786708117000,
       "packageName": "com.lagradost.cloudstream3",
       "lastUpdated": 1786708139000,
@@ -36,7 +37,7 @@
       }
     },
     {
-      "authorName": "LagradOst",
+      "authorName": "recloudstream",
       "categories": [
         "Multimedia",
         "Internet"
@@ -45,7 +46,7 @@
       "suggestedVersionCode": "29758503",
       "description": "Cloudstream Pre-release is the bleeding-edge version of Cloudstream. It includes the latest features, experimental updates, and bug fixes before they are pushed to the stable release. Suitable for testing and early adopters.\n\nKey features:\n\n- Bleeding-edge features and updates before public release\n- Early access to experimental improvements and fixes\n- Completely ad-free experience\n- No analytics, telemetry, or user tracking\n- Offline downloads for local media playback\n- Full Chromecast support\n- Integrated bookmarks, history, and episode tracking\n- Modular extension system for external providers\n- Optimized interface for both phones and Android TV",
       "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
-      "license": "MIT",
+      "license": "GPL-3.0",
       "name": "CloudStream (Pre-release)",
       "sourceCode": "https://github.com/recloudstream/cloudstream",
       "summary": "Pre-release testing build for Cloudstream.",

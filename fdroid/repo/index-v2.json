@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/Foxu89/fdroid-cloudstream/main/fdroid/repo",
-    "timestamp": 1786728997000,
+    "timestamp": 1786732981000,
     "categories": {
       "Internet": {
         "name": {
@@ -39,6 +39,7 @@
         "lastUpdated": 1786708139000,
         "license": "GPL-3.0",
         "sourceCode": "https://github.com/recloudstream/cloudstream",
+        "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
         "authorName": "recloudstream",
         "name": {
           "en-US": "CloudStream"
@@ -1212,10 +1213,10 @@
         "changelog": "https://github.com/recloudstream/cloudstream/releases",
         "issueTracker": "https://github.com/recloudstream/cloudstream/issues",
         "lastUpdated": 1786708116000,
-        "license": "MIT",
+        "license": "GPL-3.0",
         "sourceCode": "https://github.com/recloudstream/cloudstream",
         "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page",
-        "authorName": "LagradOst",
+        "authorName": "recloudstream",
         "name": {
           "en-US": "CloudStream (Pre-release)"
         },

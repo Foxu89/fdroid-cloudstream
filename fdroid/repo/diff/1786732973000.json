@@ -1,0 +1,12 @@
+{
+  "repo": {
+    "timestamp": 1786732981000
+  },
+  "packages": {
+    "com.lagradost.cloudstream3": {
+      "metadata": {
+        "webSite": "https://cloudstream.miraheze.org/wiki/Main_Page"
+      }
+    }
+  }
+}
