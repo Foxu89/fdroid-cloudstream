@@ -88,7 +88,7 @@ func main() {
 				app.Summary = gitHubRepo.GetDescription()
 			}
 
-			if gitHubRepo.License != nil && gitHubRepo.License.SPDXID != nil {
+			if app.License == "" && gitHubRepo.License != nil && gitHubRepo.License.SPDXID != nil {
 				app.License = *gitHubRepo.License.SPDXID
 			}
 
@@ -104,7 +104,31 @@ func main() {
 
 		log.Printf("Received %d releases", len(releases))
 
+		hasExistingAPK := false
+		if app.BackfillReleases > 0 {
+			for _, release := range releases {
+				if release.GetTagName() == "" {
+					continue
+				}
+
+				appName := apps.GenerateReleaseFilename(app.Name(), release.GetTagName())
+				if _, err := os.Stat(filepath.Join(*repoDir, appName)); !errors.Is(err, os.ErrNotExist) {
+					hasExistingAPK = true
+					break
+				}
+			}
+
+			if hasExistingAPK {
+				log.Printf("Found existing APKs for %q; only new releases before the newest existing APK will be downloaded", app.Name())
+			} else {
+				log.Printf("No existing APKs for %q; backfilling up to %d releases", app.Name(), app.BackfillReleases)
+			}
+		}
+
+		backfilledReleases := 0
+
 		for _, release := range releases {
+			stopAfterRelease := false
 			fmt.Printf("::group::Release %s\n", release.GetTagName())
 			func() {
 				defer fmt.Println("::endgroup::")
@@ -124,15 +148,37 @@ func main() {
 
 				log.Printf("Working on release with tag name %q", release.GetTagName())
 
-				apk := apps.FindAPKRelease(release)
+				apk, err := apps.FindAPKRelease(release, app.APKAssetPattern)
+				if err != nil {
+					log.Printf("Invalid apk_asset_pattern for %q: %s", app.Name(), err.Error())
+					haveError = true
+					return
+				}
 				if apk == nil {
-					log.Printf("Couldn't find a release asset with extension \".apk\"")
+					log.Printf("Couldn't find a release asset with extension \".apk\" matching pattern %q", app.APKAssetPattern)
 					return
 				}
 
 				appName := apps.GenerateReleaseFilename(app.Name(), release.GetTagName())
 
 				log.Printf("Target APK name: %s", appName)
+
+				appTargetPath := filepath.Join(*repoDir, appName)
+				_, statErr := os.Stat(appTargetPath)
+				apkExists := !errors.Is(statErr, os.ErrNotExist)
+
+				if app.BackfillReleases > 0 && hasExistingAPK && apkExists {
+					stopAfterRelease = true
+				}
+
+				if app.BackfillReleases > 0 && !hasExistingAPK {
+					if backfilledReleases >= app.BackfillReleases {
+						log.Printf("Skipping release %q because backfill_releases=%d has been reached", release.GetTagName(), app.BackfillReleases)
+						return
+					}
+
+					backfilledReleases++
+				}
 
 				appClone := app
 
@@ -143,10 +189,8 @@ func main() {
 
 				apkInfoMap[appName] = appClone
 
-				appTargetPath := filepath.Join(*repoDir, appName)
-
 				// If the app file already exists for this version, we continue
-				if _, err := os.Stat(appTargetPath); !errors.Is(err, os.ErrNotExist) {
+				if apkExists {
 					log.Printf("Already have APK for version %q at %q", release.GetTagName(), appTargetPath)
 					return
 				}
@@ -172,6 +216,11 @@ func main() {
 
 				log.Printf("Successfully downloaded app for version %q", release.GetTagName())
 			}()
+
+			if stopAfterRelease {
+				log.Printf("Stopping release scan for %q after newest existing APK %q", app.Name(), release.GetTagName())
+				break
+			}
 		}
 	}
 

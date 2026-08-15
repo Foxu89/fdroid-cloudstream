@@ -23,13 +23,16 @@ type AppInfo struct {
 
 	WebSite string `yaml:"website"`
 
+	BackfillReleases int    `yaml:"backfill_releases"`
+	APKAssetPattern  string `yaml:"apk_asset_pattern"`
+
 	Categories []string `yaml:"categories"`
 
 	AntiFeatures []string `yaml:"anti_features"`
 
 	ReleaseDescription string
 
-	License string
+	License string `yaml:"license"`
 }
 
 func (a AppInfo) Name() string {

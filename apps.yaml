@@ -1,6 +1,7 @@
 cloudstream:
   git: https://github.com/recloudstream/cloudstream
   name: "CloudStream"
+  backfill_releases: 3
   summary: "Open-source Android application for streaming and downloading media."
   description: |
     Cloudstream is an open-source Android application designed for streaming and downloading Movies, TV Shows, and Anime. Rather than hosting media, it relies on a modular extension system with custom providers.
@@ -24,6 +25,7 @@ cloudstream:
 quicknovel:
   git: https://github.com/LagradOst/QuickNovel
   name: "QuickNovel"
+  backfill_releases: 3
   summary: "Open-source Android application for downloading and reading light novels and web novels."
   description: |
     QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.
@@ -42,3 +44,36 @@ quicknovel:
   categories:
     - Books
     - Reading
+
+kiwibrowser:
+  git: https://github.com/kiwibrowser/src.next
+  name: "Kiwi Browser"
+  backfill_releases: 1
+  apk_asset_pattern: "^com\\.kiwibrowser\\.browser-arm64-.*-github\\.apk$"
+  summary: "Fast, privacy-focused Chromium browser with full Chrome extension support."
+  description: |
+    Kiwi Browser is a powerful web browser built on Chromium and WebKit, designed to bring a desktop-grade browsing experience to mobile. It is famous for being one of the first and most stable Android browsers to fully support desktop Google Chrome extensions.
+
+    Key features:
+
+    - Full Chrome Extension Support: Install and run desktop extensions directly from the Chrome Web Store or local .crx/.user.js files.
+    - Built-in Ad & Pop-up Blocker: Blocks intrusive ads, trackers, and pop-up windows natively.
+    - Night Mode & Dark Theme: Fully customizable dark mode, including forced dark mode for all websites and AMOLED-optimized themes.
+    - Bottom Address Bar: Option to move the search bar to the bottom for better one-handed usability on large screens.
+    - Developer Tools: Inspect elements, view console logs, and debug web pages directly on mobile.
+    - Privacy & Protection: Built-in protection against cryptojacking, tracking, and unwanted background scripts.
+
+  categories:
+    - Internet
+
+flappybird:
+  git: https://github.com/FlappyRecreator/FlappyB64bitAndroid
+  name: "Flappy Bird"
+  backfill_releases: 1
+  license: Unknown
+  summary: "64-bit Android port and recreation of the classic Flappy Bird game."
+  description: |
+    FlappyB64bitAndroid is a source-available recreation of the original Flappy Bird game, modernized to support 64-bit Android architecture. Designed for smooth performance on newer Android devices where older 32-bit apps are no longer supported, it offers the traditional arcade gameplay without ads or bloatware.
+
+  categories:
+    - Games

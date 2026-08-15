@@ -3,6 +3,7 @@ package apps
 import (
 	"context"
 	"fmt"
+	"regexp"
 	"strings"
 	"unicode"
 
@@ -12,18 +13,30 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
-func FindAPKRelease(release *github.RepositoryRelease) *github.ReleaseAsset {
+func FindAPKRelease(release *github.RepositoryRelease, assetPattern string) (*github.ReleaseAsset, error) {
+	var assetRegex *regexp.Regexp
+	if assetPattern != "" {
+		var err error
+		assetRegex, err = regexp.Compile(assetPattern)
+		if err != nil {
+			return nil, err
+		}
+	}
+
 	for _, asset := range release.Assets {
 		if asset.State == nil || *asset.State != "uploaded" {
 			continue
 		}
 
 		if asset.Name != nil && strings.HasSuffix(*asset.Name, ".apk") {
-			return asset
+			if assetRegex != nil && !assetRegex.MatchString(*asset.Name) {
+				continue
+			}
+			return asset, nil
 		}
 	}
 
-	return nil
+	return nil, nil
 }
 
 func GenerateReleaseFilename(appName string, tagName string) string {
