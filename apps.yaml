@@ -45,27 +45,6 @@ quicknovel:
     - Books
     - Reading
 
-kiwibrowser:
-  git: https://github.com/kiwibrowser/src.next
-  name: "Kiwi Browser"
-  backfill_releases: 1
-  apk_asset_pattern: "^com\\.kiwibrowser\\.browser-arm64-.*-github\\.apk$"
-  summary: "Fast, privacy-focused Chromium browser with full Chrome extension support."
-  description: |
-    Kiwi Browser is a powerful web browser built on Chromium and WebKit, designed to bring a desktop-grade browsing experience to mobile. It is famous for being one of the first and most stable Android browsers to fully support desktop Google Chrome extensions.
-
-    Key features:
-
-    - Full Chrome Extension Support: Install and run desktop extensions directly from the Chrome Web Store or local .crx/.user.js files.
-    - Built-in Ad & Pop-up Blocker: Blocks intrusive ads, trackers, and pop-up windows natively.
-    - Night Mode & Dark Theme: Fully customizable dark mode, including forced dark mode for all websites and AMOLED-optimized themes.
-    - Bottom Address Bar: Option to move the search bar to the bottom for better one-handed usability on large screens.
-    - Developer Tools: Inspect elements, view console logs, and debug web pages directly on mobile.
-    - Privacy & Protection: Built-in protection against cryptojacking, tracking, and unwanted background scripts.
-
-  categories:
-    - Internet
-
 flappybird:
   git: https://github.com/FlappyRecreator/FlappyB64bitAndroid
   name: "Flappy Bird"
