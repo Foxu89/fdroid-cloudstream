@@ -2,7 +2,7 @@ AuthorName: LagradOst
 Categories:
     - Books
     - Reading
-CurrentVersion: 3.3.0
+CurrentVersion: 3.7.4
 CurrentVersionCode: 56
 Description: |
     QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.

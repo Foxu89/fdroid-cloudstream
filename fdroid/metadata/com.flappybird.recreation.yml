@@ -1,0 +1,13 @@
+AuthorName: FlappyRecreator
+Categories:
+    - Games
+CurrentVersion: "1.4"
+CurrentVersionCode: 14
+Description: |
+    FlappyB64bitAndroid is a source-available recreation of the original Flappy Bird game, modernized to support 64-bit Android architecture. Designed for smooth performance on newer Android devices where older 32-bit apps are no longer supported, it offers the traditional arcade gameplay without ads or bloatware.
+IssueTracker: ""
+License: Unknown
+Name: Flappy Bird
+SourceCode: https://github.com/FlappyRecreator/FlappyB64bitAndroid
+Summary: 64-bit Android port and recreation of the classic Flappy Bird game.
+WebSite: ""

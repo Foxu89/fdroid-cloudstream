@@ -1,0 +1,12 @@
+**🚀 Release Version V1.4 is Here! 🚀**
+
+**✅ Stable & Ready to Play**
+V1.4 delivers a stable experience and is ready for you to enjoy!  
+Yes, there may still be **a few odd bugs or quirks**, but that’s expected for any recreation project.
+
+**🛠 Next Up: V1.5 Development**
+Work has already begun on **Version 1.5**, which will introduce **new features** and aim to **further improve stability**.
+
+**🐞 Help Us Improve**
+If you encounter any issues, please **report them via the Issues tab**.  
+The more **detailed and clear** your report, the faster we can squash those bugs!

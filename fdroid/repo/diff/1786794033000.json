@@ -1,0 +1,30 @@
+{
+  "repo": {
+    "timestamp": 1786794043000,
+    "categories": {
+      "fdroid": null,
+      "Games": {
+        "name": {
+          "en-US": "Games"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.flappybird.recreation": {
+      "metadata": {
+        "categories": [
+          "Games"
+        ],
+        "sourceCode": "https://github.com/FlappyRecreator/FlappyB64bitAndroid",
+        "authorName": "FlappyRecreator",
+        "summary": {
+          "en-US": "64-bit Android port and recreation of the classic Flappy Bird game."
+        },
+        "description": {
+          "en-US": "FlappyB64bitAndroid is a source-available recreation of the original Flappy Bird game, modernized to support 64-bit Android architecture. Designed for smooth performance on newer Android devices where older 32-bit apps are no longer supported, it offers the traditional arcade gameplay without ads or bloatware.\n"
+        }
+      }
+    }
+  }
+}
