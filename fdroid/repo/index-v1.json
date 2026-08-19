@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787023817000,
+    "timestamp": 1787110322000,
     "version": 20002,
     "name": "CloudStream F-Droid repo",
     "icon": "icon.png",
@@ -96,7 +96,7 @@
         "Books",
         "Reading"
       ],
-      "suggestedVersionName": "3.7.4",
+      "suggestedVersionName": "3.7.5",
       "suggestedVersionCode": "56",
       "description": "QuickNovel is an open-source Android application designed for downloading, organizing, and reading light novels and web novels directly on your device. Rather than hosting content, it utilizes a modular web scraping system to fetch stories from various online sources and convert them into readable formats or EPUB/PDF files.\n\nKey features:\n\n- Download novels for offline reading in EPUB or PDF formats\n- Built-in customizable reader with text sizing, fonts, and night mode\n- Integrated online translation support for foreign language sources\n- Advanced search and filtering across multiple provider sources\n- Built-in Text-To-Speech (TTS) integration for listening on the go\n- Organized library management with bookmarks, history, and reading progress\n- Completely ad-free and open-source experience\n- Optimized interface for Android phones and tablets\n",
       "license": "GPL-3.0",
@@ -105,7 +105,7 @@
       "summary": "Open-source Android application for downloading and reading light novels and ...",
       "added": 1786736195000,
       "packageName": "com.lagradost.quicknovel",
-      "lastUpdated": 1786736198000,
+      "lastUpdated": 1787110314000,
       "localized": {
         "en-US": {
           "icon": "icon_VxlngCQBNEOZ8PEhuzN5LMjSmZeyw4VS8Hq-p_zA__k=.png",
@@ -116,7 +116,7 @@
             "4.jpg",
             "5.jpg"
           ],
-          "whatsNew": "+ Fixed minor UI issues\n+ Fixed some sorting issues\n+ Fixed download issues"
+          "whatsNew": "+ Changed storage API\n+ Added separate paths for Epub, Backups and Logcat, (old download path have to be re-picked if you have already specified one)\n+ Changed download pause -> stop for better UX\n+ Fixed error loading epub and similar issues\n+ Fixed and improved epub generation for external readers by TJMolina\n+ Fixed LibRead by TJMolina"
         }
       }
     }
@@ -774,6 +774,76 @@
         ],
         "versionCode": 56,
         "versionName": "3.7.4"
+      },
+      {
+        "added": 1787110314000,
+        "apkName": "quicknovel_v3.7.5.apk",
+        "hash": "995e9c7c16573372769c341d465cc0d7948e85628835f7e0502c677031801138",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lagradost.quicknovel",
+        "sig": "a084adc2b0d2548cc70da68ccf2e8c30",
+        "signer": "9b4f6c87eeb70b257c7f968e65b15616824bce33e9cc74a07ad3dd26632a1db7",
+        "size": 91719336,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.lagradost.quicknovel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56,
+        "versionName": "3.7.5"
       }
     ]
   }
