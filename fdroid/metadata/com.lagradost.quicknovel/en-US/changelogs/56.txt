@@ -1,6 +1,3 @@
-+ Changed storage API
-+ Added separate paths for Epub, Backups and Logcat, (old download path have to be re-picked if you have already specified one)
-+ Changed download pause -> stop for better UX
-+ Fixed error loading epub and similar issues
-+ Fixed and improved epub generation for external readers by TJMolina
-+ Fixed LibRead by TJMolina
++ Fixed duplicate epub bug
++ Fixed minor UI bugs
++ Fixed some providers by TJMolina

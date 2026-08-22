@@ -9,7 +9,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for **CloudStream*
 | <a href="https://github.com/recloudstream/cloudstream"><img src="fdroid/repo/icons/" alt="CloudStream icon" width="36px" height="36px"></a> | [**CloudStream**](https://github.com/recloudstream/cloudstream) | Open-source Android application for streaming and downloading media. | 4.8.0 (68) |
 | <a href="https://github.com/recloudstream/cloudstream"><img src="fdroid/repo/icons/" alt="CloudStream (Pre-release) icon" width="36px" height="36px"></a> | [**CloudStream (Pre-release)**](https://github.com/recloudstream/cloudstream) | Pre-release testing build for Cloudstream. |  (29758503) |
 | <a href="https://github.com/FlappyRecreator/FlappyB64bitAndroid"><img src="fdroid/repo/icons/com.flappybird.recreation.14.png" alt="Flappy Bird icon" width="36px" height="36px"></a> | [**Flappy Bird**](https://github.com/FlappyRecreator/FlappyB64bitAndroid) | 64-bit Android port and recreation of the classic Flappy Bird game. | 1.4 (14) |
-| <a href="https://github.com/LagradOst/QuickNovel"><img src="fdroid/repo/icons/" alt="QuickNovel icon" width="36px" height="36px"></a> | [**QuickNovel**](https://github.com/LagradOst/QuickNovel) | Open-source Android application for downloading and reading light novels and ... | 3.7.5 (56) |
+| <a href="https://github.com/LagradOst/QuickNovel"><img src="fdroid/repo/icons/" alt="QuickNovel icon" width="36px" height="36px"></a> | [**QuickNovel**](https://github.com/LagradOst/QuickNovel) | Open-source Android application for downloading and reading light novels and ... | 3.7.6 (56) |
 <!-- end apps table -->
 
 ### How to use
